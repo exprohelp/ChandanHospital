@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_layout.cshtml";
+}
+<aside class="main-sidebar">
+    <div class="sidebar">
+        <ul class="sidebar-menu">
+            <li id="AdminDashboard">
+                <a href="AdminDashboard.aspx">
+                    <i class="fa fa-dashboard"></i><span>Dashboard</span>
+                </a>
+            </li>
+            <li id="AddDoctors" class="treeview">
+                <a href="AddDoctors.aspx">
+                    <i class="fa fa-user"></i>
+                    <span>Create Doctors</span>
+                </a>
+            </li>
+            <li id="UploadAdvertise" class="treeview">
+                <a href="UploadAdvertise.aspx">
+                    <i class="fa fa-upload"></i>
+                    <span>Upload Advertise Image</span>
+                </a>
+            </li>
+            <li id="mailToEmployee" class="treeview">
+                <a href="mailToEmployee.aspx">
+                    <i class="fa fa-envelope"></i>
+                    <span>Mail to employee</span>
+                </a>
+            </li>
+            <li class="treeview">
+                <a href="https://chandandiagnostic.com/admin/login.html" target="_blank">
+                    <i class="fa fa-circle"></i>
+                    <span>Job Opportunities</span>
+                </a>
+            </li>
+            @*<%--
+            <li id="liReport" class="treeview">
+                <a href="#">
+                    <i class="fa fa-edit"></i>
+                    <span>Report</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul id="SubUlReport" class="treeview-menu">
+                    <li id="SubLiTotalNews"><a href="TotalNews.aspx">Total News</a></li>
+                    <li id="SubLiTotalPendingtoapproveNews"><a href="PendingNewsForApproval.aspx">Pending News To Approve</a></li>
+                </ul>
+            </li>--%>*@
+        </ul>
+    </div>
+</aside>

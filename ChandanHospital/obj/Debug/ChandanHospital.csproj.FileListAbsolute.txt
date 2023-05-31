@@ -1,0 +1,643 @@
+E:\ChandanHospital\ChandanHospital\bin\ChandanHospital.dll.config
+E:\ChandanHospital\ChandanHospital\bin\ChandanHospital.dll
+E:\ChandanHospital\ChandanHospital\bin\ChandanHospital.pdb
+E:\ChandanHospital\ChandanHospital\bin\roslyn\csc.exe
+E:\ChandanHospital\ChandanHospital\bin\roslyn\csc.exe.config
+E:\ChandanHospital\ChandanHospital\bin\roslyn\csc.rsp
+E:\ChandanHospital\ChandanHospital\bin\roslyn\csi.exe
+E:\ChandanHospital\ChandanHospital\bin\roslyn\csi.exe.config
+E:\ChandanHospital\ChandanHospital\bin\roslyn\csi.rsp
+E:\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.Managed.Core.targets
+E:\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\ChandanHospital\ChandanHospital\bin\roslyn\System.AppContext.dll
+E:\ChandanHospital\ChandanHospital\bin\roslyn\System.Collections.Immutable.dll
+E:\ChandanHospital\ChandanHospital\bin\roslyn\System.Console.dll
+E:\ChandanHospital\ChandanHospital\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\ChandanHospital\ChandanHospital\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.Compression.dll
+E:\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.FileSystem.dll
+E:\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.Pipes.dll
+E:\ChandanHospital\ChandanHospital\bin\roslyn\System.Reflection.Metadata.dll
+E:\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.AccessControl.dll
+E:\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Claims.dll
+E:\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Principal.Windows.dll
+E:\ChandanHospital\ChandanHospital\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\ChandanHospital\ChandanHospital\bin\roslyn\System.ValueTuple.dll
+E:\ChandanHospital\ChandanHospital\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\ChandanHospital\ChandanHospital\bin\roslyn\System.Xml.XmlDocument.dll
+E:\ChandanHospital\ChandanHospital\bin\roslyn\System.Xml.XPath.dll
+E:\ChandanHospital\ChandanHospital\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\ChandanHospital\ChandanHospital\bin\roslyn\vbc.exe
+E:\ChandanHospital\ChandanHospital\bin\roslyn\vbc.exe.config
+E:\ChandanHospital\ChandanHospital\bin\roslyn\vbc.rsp
+E:\ChandanHospital\ChandanHospital\bin\roslyn\VBCSCompiler.exe
+E:\ChandanHospital\ChandanHospital\bin\roslyn\VBCSCompiler.exe.config
+E:\ChandanHospital\ChandanHospital\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\ChandanHospital\ChandanHospital\bin\Microsoft.Web.Infrastructure.dll
+E:\ChandanHospital\ChandanHospital\bin\System.Web.Helpers.dll
+E:\ChandanHospital\ChandanHospital\bin\System.Web.Mvc.dll
+E:\ChandanHospital\ChandanHospital\bin\System.Web.Razor.dll
+E:\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.Deployment.dll
+E:\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.dll
+E:\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.Razor.dll
+E:\ChandanHospital\ChandanHospital\bin\System.Web.Razor.xml
+E:\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.xml
+E:\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.Deployment.xml
+E:\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.Razor.xml
+E:\ChandanHospital\ChandanHospital\bin\System.Web.Helpers.xml
+E:\ChandanHospital\ChandanHospital\bin\System.Web.Mvc.xml
+E:\ChandanHospital\ChandanHospital\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.csproj.CoreCompileInputs.cache
+E:\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.csproj.CopyComplete
+E:\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.dll
+E:\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.pdb
+E:\ChandanHospital\ChandanHospital\bin\System.Net.Http.Formatting.dll
+E:\ChandanHospital\ChandanHospital\bin\Newtonsoft.Json.dll
+E:\ChandanHospital\ChandanHospital\bin\System.Web.Cors.dll
+E:\ChandanHospital\ChandanHospital\bin\System.Web.Http.Cors.dll
+E:\ChandanHospital\ChandanHospital\bin\System.Web.Http.dll
+E:\ChandanHospital\ChandanHospital\bin\Newtonsoft.Json.xml
+E:\ChandanHospital\ChandanHospital\bin\System.Net.Http.Formatting.xml
+E:\ChandanHospital\ChandanHospital\bin\System.Web.Http.xml
+E:\ChandanHospital\ChandanHospital\bin\System.Web.Http.Cors.xml
+E:\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.csprojAssemblyReference.cache
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\ChandanHospital.dll.config
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\ChandanHospital.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\ChandanHospital.pdb
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\csc.exe
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\csc.exe.config
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\csc.rsp
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\csi.exe
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\csi.exe.config
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\csi.rsp
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\System.AppContext.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\System.Console.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.Compression.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Claims.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\System.ValueTuple.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\vbc.exe
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\vbc.exe.config
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\vbc.rsp
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\VBCSCompiler.exe
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\Newtonsoft.Json.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\System.Net.Http.Formatting.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\System.Web.Cors.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\System.Web.Helpers.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\System.Web.Http.Cors.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\System.Web.Http.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\System.Web.Mvc.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\System.Web.Razor.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.Razor.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\Newtonsoft.Json.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\System.Net.Http.Formatting.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\System.Web.Http.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\System.Web.Http.Cors.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\System.Web.Razor.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.Razor.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\System.Web.Helpers.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\System.Web.Mvc.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.csprojAssemblyReference.cache
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.csproj.CoreCompileInputs.cache
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.csproj.CopyComplete
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital_28072021\ChandanHospital\28-07-2021\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.pdb
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\ChandanHospital.dll.config
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\ChandanHospital.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\ChandanHospital.pdb
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\csc.exe
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\csc.exe.config
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\csc.rsp
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\csi.exe
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\csi.exe.config
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\csi.rsp
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\System.AppContext.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\System.Console.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.Compression.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Claims.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\System.ValueTuple.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\vbc.exe
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\vbc.exe.config
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\vbc.rsp
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\VBCSCompiler.exe
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\Newtonsoft.Json.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\System.Net.Http.Formatting.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\System.Web.Cors.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\System.Web.Helpers.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\System.Web.Http.Cors.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\System.Web.Http.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\System.Web.Mvc.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\System.Web.Razor.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.Razor.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\Newtonsoft.Json.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\System.Net.Http.Formatting.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\System.Web.Http.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\System.Web.Http.Cors.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\System.Web.Razor.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.Razor.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\System.Web.Helpers.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\System.Web.Mvc.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.csprojAssemblyReference.cache
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.csproj.CoreCompileInputs.cache
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.csproj.CopyComplete
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\ChandanHospital_29072021\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.pdb
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\ChandanHospital.dll.config
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\ChandanHospital.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\ChandanHospital.pdb
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\csc.exe
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\csc.exe.config
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\csc.rsp
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\csi.exe
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\csi.exe.config
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\csi.rsp
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\System.AppContext.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\System.Console.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.Compression.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Claims.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\System.ValueTuple.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\vbc.exe
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\vbc.exe.config
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\vbc.rsp
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\VBCSCompiler.exe
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\Newtonsoft.Json.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\System.Net.Http.Formatting.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\System.Web.Cors.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\System.Web.Helpers.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\System.Web.Http.Cors.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\System.Web.Http.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\System.Web.Mvc.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\System.Web.Razor.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.Razor.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\Newtonsoft.Json.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\System.Net.Http.Formatting.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\System.Web.Http.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\System.Web.Http.Cors.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\System.Web.Razor.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.Razor.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\System.Web.Helpers.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\System.Web.Mvc.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.csproj.CoreCompileInputs.cache
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.csproj.CopyComplete
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.dll
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.pdb
+C:\Users\Animesh Khare\Desktop\Backup\ChandanHospital\Chnadanhospital_01102021\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.csprojAssemblyReference.cache
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\csc.exe
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\System.Collections.Immutable.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\System.Reflection.Metadata.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\ChandanHospital.dll.config
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\ChandanHospital.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\ChandanHospital.pdb
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\csc.exe.config
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\csc.rsp
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\csi.exe
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\csi.exe.config
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\csi.rsp
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.Managed.Core.targets
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\System.AppContext.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\System.Console.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.Compression.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.FileSystem.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.Pipes.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.AccessControl.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Claims.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Principal.Windows.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\System.ValueTuple.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\System.Xml.XmlDocument.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\System.Xml.XPath.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\vbc.exe
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\vbc.exe.config
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\vbc.rsp
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\VBCSCompiler.exe
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\roslyn\VBCSCompiler.exe.config
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\Antlr3.Runtime.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\Microsoft.Web.Infrastructure.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\Newtonsoft.Json.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\System.Net.Http.Formatting.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\System.Web.Cors.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\System.Web.Helpers.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\System.Web.Http.Cors.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\System.Web.Http.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\System.Web.Mvc.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\System.Web.Optimization.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\System.Web.Razor.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.Deployment.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.Razor.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\WebGrease.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\Antlr3.Runtime.pdb
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\Newtonsoft.Json.xml
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\System.Net.Http.Formatting.xml
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\System.Web.Http.xml
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\System.Web.Http.Cors.xml
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\System.Web.Optimization.xml
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\System.Web.Razor.xml
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.xml
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.Deployment.xml
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.Razor.xml
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\System.Web.Helpers.xml
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\System.Web.Mvc.xml
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.csproj.CoreCompileInputs.cache
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.csproj.CopyComplete
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.dll
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.pdb
+D:\win_application\Nishi\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.csprojAssemblyReference.cache
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\ChandanHospital.dll.config
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\ChandanHospital.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\ChandanHospital.pdb
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\csc.exe
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\csc.exe.config
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\csc.rsp
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\csi.exe
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\csi.exe.config
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\csi.rsp
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.Managed.Core.targets
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.AppContext.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Collections.Immutable.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Console.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.Compression.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.FileSystem.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.Pipes.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Reflection.Metadata.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.AccessControl.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Claims.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Principal.Windows.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.ValueTuple.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Xml.XmlDocument.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Xml.XPath.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\vbc.exe
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\vbc.exe.config
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\vbc.rsp
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\VBCSCompiler.exe
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\VBCSCompiler.exe.config
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\Antlr3.Runtime.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\Microsoft.Web.Infrastructure.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\Newtonsoft.Json.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\System.Net.Http.Formatting.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Cors.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Helpers.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Http.Cors.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Http.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Mvc.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Optimization.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Razor.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.Deployment.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.Razor.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\WebGrease.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\Antlr3.Runtime.pdb
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\Newtonsoft.Json.xml
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\System.Net.Http.Formatting.xml
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Http.xml
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Http.Cors.xml
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Optimization.xml
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Razor.xml
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.xml
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.Deployment.xml
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.Razor.xml
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Helpers.xml
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Mvc.xml
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.csproj.CoreCompileInputs.cache
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.csproj.CopyComplete
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.dll
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.pdb
+D:\win_application\WebApp\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.csprojAssemblyReference.cache
+D:\WebApp\ChandanHospital\ChandanHospital\bin\ChandanHospital.dll.config
+D:\WebApp\ChandanHospital\ChandanHospital\bin\ChandanHospital.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\ChandanHospital.pdb
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\csc.exe
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\csc.exe.config
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\csc.rsp
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\csi.exe
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\csi.exe.config
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\csi.rsp
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.Managed.Core.targets
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.AppContext.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Collections.Immutable.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Console.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.Compression.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.FileSystem.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.Pipes.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Reflection.Metadata.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.AccessControl.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Claims.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Principal.Windows.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.ValueTuple.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Xml.XmlDocument.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Xml.XPath.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\vbc.exe
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\vbc.exe.config
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\vbc.rsp
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\VBCSCompiler.exe
+D:\WebApp\ChandanHospital\ChandanHospital\bin\roslyn\VBCSCompiler.exe.config
+D:\WebApp\ChandanHospital\ChandanHospital\bin\Antlr3.Runtime.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\Microsoft.Web.Infrastructure.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\Newtonsoft.Json.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\System.Net.Http.Formatting.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Cors.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Helpers.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Http.Cors.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Http.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Mvc.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Optimization.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Razor.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.Deployment.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.Razor.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\WebGrease.dll
+D:\WebApp\ChandanHospital\ChandanHospital\bin\Antlr3.Runtime.pdb
+D:\WebApp\ChandanHospital\ChandanHospital\bin\Newtonsoft.Json.xml
+D:\WebApp\ChandanHospital\ChandanHospital\bin\System.Net.Http.Formatting.xml
+D:\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Http.xml
+D:\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Http.Cors.xml
+D:\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Optimization.xml
+D:\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Razor.xml
+D:\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.xml
+D:\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.Deployment.xml
+D:\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.Razor.xml
+D:\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Helpers.xml
+D:\WebApp\ChandanHospital\ChandanHospital\bin\System.Web.Mvc.xml
+D:\WebApp\ChandanHospital\ChandanHospital\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\WebApp\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.csprojAssemblyReference.cache
+D:\WebApp\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.csproj.CoreCompileInputs.cache
+D:\WebApp\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.csproj.CopyComplete
+D:\WebApp\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.dll
+D:\WebApp\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.pdb
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\ChandanHospital.dll.config
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\ChandanHospital.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\ChandanHospital.pdb
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\csc.exe
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\csc.exe.config
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\csc.rsp
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\csi.exe
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\csi.exe.config
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\csi.rsp
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.Managed.Core.targets
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\System.AppContext.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\System.Collections.Immutable.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\System.Console.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.Compression.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.FileSystem.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\System.IO.Pipes.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\System.Reflection.Metadata.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.AccessControl.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Claims.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\System.Security.Principal.Windows.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\System.ValueTuple.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\System.Xml.XmlDocument.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\System.Xml.XPath.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\vbc.exe
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\vbc.exe.config
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\vbc.rsp
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\VBCSCompiler.exe
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\roslyn\VBCSCompiler.exe.config
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\Antlr3.Runtime.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\Microsoft.Web.Infrastructure.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\Newtonsoft.Json.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\System.Net.Http.Formatting.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\System.Web.Cors.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\System.Web.Helpers.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\System.Web.Http.Cors.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\System.Web.Http.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\System.Web.Mvc.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\System.Web.Optimization.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\System.Web.Razor.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.Deployment.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.Razor.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\WebGrease.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\Antlr3.Runtime.pdb
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\Newtonsoft.Json.xml
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\System.Net.Http.Formatting.xml
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\System.Web.Http.xml
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\System.Web.Http.Cors.xml
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\System.Web.Optimization.xml
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\System.Web.Razor.xml
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.xml
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.Deployment.xml
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\System.Web.Webpages.Razor.xml
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\System.Web.Helpers.xml
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\System.Web.Mvc.xml
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.csproj.CoreCompileInputs.cache
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.csproj.CopyComplete
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.dll
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.pdb

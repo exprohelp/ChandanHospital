@@ -1,0 +1,3 @@
+﻿1-On "Security Error" Display >>Resolved By :  trust level add ( <trust level="Full" />)
+2-Unreadable code Display error >>Resolved By :  Gzip Compression Disable by Global.asax file
+3-csc.exe file Not found Error >>Resolved By Removing or Comment Line of code: "<system.codedom>" Tag

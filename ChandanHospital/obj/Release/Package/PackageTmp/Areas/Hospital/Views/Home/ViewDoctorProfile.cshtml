@@ -1,0 +1,82 @@
+﻿
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title></title>
+    <script src="~/Content/js/jquery-2.2.4.min.js"></script>
+    <script src="~/JsModule/global.js"></script>
+    <link href="~/Content/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Areas/Hospital/JsModule/ViewDoctorPrifile.js"></script>
+    <style type="text/css">
+        .h4, .h5, .h6, h4, h5, h6 {
+            margin-top: 5px !important;
+            margin-bottom: 5px !important
+        }
+
+        hr {
+            border: 1px solid #0ab1b9 !important;
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+
+        /*.panel {
+            margin-top: 5px !important;
+            margin-bottom: 5px !important;
+        }*/
+
+        .panel-heading {
+            padding: 1px 10px !important
+        }
+
+        .panel-primary {
+            border: 1px solid #0ab1b9 !important
+        }
+
+        .panel-body {
+            padding: 5px !important
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <div class="">
+                <div class="panel panel-primary" id="maindiv">
+                    <div class="panel-heading">
+                        <h4>Profile</h4>
+                    </div>
+                    <div class="panel-body">
+                        <div class="col-sm-3">
+                            <img id="imgdoctors" class="img-circle" src="images/demoprofile.jpg" style="width: 150px; height: 150px; margin-left: 3px">
+                        </div>
+                        <div class="col-sm-5">
+                            <h3><span id="spndocname"></span></h3>
+                            <h5><span id="spndegree"></span></h5>
+                            <div id="article">
+                             <hr>
+                            </div>
+                            <h4>&nbsp;<span id="spnDesignation"></span></h4>
+                            <p>
+                                <span id="spnDept"></span>
+                            </p>
+                        </div>
+                        <div class="col-sm-4"  id="DivAppoinment">
+                            <a href="/"  class="btn btn-xs btn-success pull-right" style="margin-left:2px">Home</a>
+                            <a href="javascript:void(0)" style="display:none" class="btn btn-xs btn-danger pull-right" id="btnBookAppointment" onclick="BookAppointment();">Book Appointment</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="" id="bind">
+        </div>
+    </div>   
+    </div>   
+</body>
+</html>
+

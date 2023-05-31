@@ -1,0 +1,254 @@
+﻿
+@{
+    ViewBag.Title = "DepartmentMenu";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+
+<link href="~/Content/css/Department.css" rel="stylesheet" />
+<script src="~/Areas/Hospital/JsModule/DepartmentInfo.js?v1.1"></script>
+<style>
+    .award .moreDesc {
+        color: #01484b;
+        float: right;
+    }
+
+        .award .moreDesc:hover {
+            color: #0e50b9;
+        }
+
+    .award {
+        border: 2px solid #0ab1b9;
+        padding: 3px;
+        cursor: pointer;
+        margin-bottom: 15px;
+        max-height: 262px;
+    }
+
+        .award img {
+            margin: 1px 1px;
+            height: 152px;
+            width: 100%
+        }
+
+        .award iframe {
+            margin: 1px 0px;
+            height: 144px;
+            width: 100%
+        }
+
+        .award p {
+            color: #fff;
+        }
+
+        .award h3 {
+            vertical-align: central;
+            min-height: 100px;
+            max-height: 100px;
+            margin: 0;
+            text-align: left;
+            padding: 10px;
+            font-size: 11px;
+            background: #0ab1b9;
+            color: #fff;
+        }
+
+    .image-source-link {
+        color: #98C3D1;
+    }
+
+    .mfp-with-zoom .mfp-container,
+    .mfp-with-zoom.mfp-bg {
+        opacity: 0;
+        -webkit-backface-visibility: hidden;
+        /* ideally, transition speed should match zoom duration */
+        -webkit-transition: all 0.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+    }
+
+    .mfp-with-zoom.mfp-ready .mfp-container {
+        opacity: 1;
+    }
+
+    .mfp-with-zoom.mfp-ready.mfp-bg {
+        opacity: 0.8;
+    }
+
+    .mfp-with-zoom.mfp-removing .mfp-container,
+    .mfp-with-zoom.mfp-removing.mfp-bg {
+        opacity: 0;
+    }
+
+    .award:hover {
+        box-shadow: -3px 1px 12px #666;
+    }
+</style>
+<section class="inner-header divider parallax layer-overlay overlay-white-5" style="background-image: url(&quot;/Content/images/bg/b1.jpg&quot;), url(&quot;../Content/images/bg/b1.jpg&quot;); background-position: 50% 64px;">
+    <div class="container pt-40 pb-20">
+        <!-- Section Content -->
+        <div class="section-content">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="title" id="hPageHeading">xxxx</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<link href="~/Content/css/Department.css" rel="stylesheet" />
+<section>
+    <div class="container">
+        <div class="section-content">
+            <div class="row">
+                <div class="col-lg-12 col-xs-12 col-sm-8 col-md-8 pull-left flip">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">
+                                            <h4>ABOUT DEPARTMENT</h4>
+                                        </div>
+                                        <div class="panel-body">
+                                            <h4 id="dept_name"></h4>
+                                            <p id="about_department"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">
+                                            <h4>DOCTORS</h4>
+                                        </div>
+                                        <div class="panel-body" id="DoctorsDetails">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">
+                                            <h4>WHAT WE TREAT</h4>
+                                        </div>
+                                        <div class="panel-body" id="WhatWeTreatDetails">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">
+                                            <h4>Media</h4>
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="row" id="MediaDetails"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="container">
+                            </div>
+                            <div id="modalRegister" class="modal fade" role="dialog" style="display:none;">
+                                <div class="modal-dialog modal-lg">
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-header mobilecolor" style="padding: 0 12px; background: #198686">
+                                            <h3 id="lbldeptname" style="margin: 8px auto; font-size: 15px; text-align: center; color: #fff">Chandan Institute of Bone and Joint</h3>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <p id="lblmedialink" style="text-align: center; color: #000; font-size: 14px; font-weight: bold;">Degenerative Disc Disease</p>
+                                                </div>
+                                                <br>
+                                                <div id="divcontent">
+                                                    <p style="font-size:14px"></p><h3><strong>Degenerative Disc Disease (DDD)</strong> used to&nbsp;happens due to aging, but nowadays it can also happen to people as young as 20-21 years old. In DDD, your discs become more rigid and stiff due to decrease in water attracting molecules in your disc. Surgery is the last option for treatment of the disease. Patient must consider regular check-ups and medication.</h3>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer" style="text-align:center">
+                                            <button class="btn btn-danger btn-xs" data-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            @*<script type="text/javascript">
+                                    function getWhatweTreat(elem) {
+                                        var treat = {};
+                                        var autoid = $(elem).data('autoid');
+                                        var deptid = $(elem).data('deptid');
+                                        var medialink = $(elem).data('medialink');
+                                        treat.autoid = autoid;
+                                        treat.deptid = deptid;
+                                        treat.medialink = medialink;
+                                        $.ajax({
+                                            type: "POST",
+                                            contentType: "application/json; charset=utf-8",
+                                            url: "WhatWeTreat.aspx/GetWhatWeTreat",
+                                            data: '{objdata: ' + JSON.stringify(treat) + '}',
+                                            dataType: "json",
+                                            success: function (response) {
+                                                debugger;
+                                                var r = JSON.parse(response.d);
+                                                if (r.Table.length > 0) {
+                                                    var htmlcontent = "";
+                                                    $("#divcontent").empty();
+                                                    $("#lbldeptname").text(r.Table[0].dept_name);
+                                                    $("#lblmedialink").text(r.Table[0].MediaLink);
+                                                    for (i = 0; i < r.Table.length; i++) {
+                                                        if (r.Table[0].Description != "") {
+                                                            if (r.Table[0].ImgPosition == "Top") {
+                                                                if (r.Table[0].ImgUrl != "") {
+                                                                    htmlcontent += '<img src= ../' + r.Table[i].ImgUrl + ' /> <br />';
+                                                                    htmlcontent += '<p style="font-size:14px">' + r.Table[0].Description + '</p> <br />';
+                                                                }
+                                                            }
+                                                            else {
+                                                                htmlcontent += '<p style="font-size:14px">' + r.Table[0].Description + '</p>';
+                                                                if (r.Table[0].ImgUrl != "") {
+                                                                    htmlcontent += '<img src= ../' + r.Table[0].ImgUrl + ' /> <br />';
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+
+                                                    $("#divcontent").append(htmlcontent);
+                                                }
+                                            },
+                                            error: function (response) {
+                                                alert("Error while Getting Media");
+                                            }
+                                        });
+                                    }
+                                </script>*@
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<div class="modal fade" id="modalDescription" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content" style="top: 150px;">
+            <div class="bg-success" style="padding: 5px 10px;background:#1fa9b0">
+                <h4 class="modal-title text-white">
+                    Media Description
+                    <button type="button" class="close pull-right" data-dismiss="modal">&times;</button>
+                </h4>
+            </div>
+            <div class="modal-body" style="padding: 5px 15px;"></div>
+        </div>
+    </div>
+</div>

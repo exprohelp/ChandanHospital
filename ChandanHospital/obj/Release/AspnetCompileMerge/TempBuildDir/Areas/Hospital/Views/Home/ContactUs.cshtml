@@ -1,0 +1,138 @@
+﻿
+@{
+	ViewBag.Title = "ContactUs";
+	Layout = "~/Views/Shared/_layout.cshtml";
+}
+<script src="~/Areas/Hospital/JsModule/ContactUs.js"></script>
+<style>
+	.contactbox {
+		border: 1px solid #0ab1b9;
+		padding: 3px 10px;
+		border-top: 0;
+		color: #2a2a2a;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 21px;
+		margin-bottom: 10px;
+		min-height: 80px;
+		word-break: break-all;
+	}
+
+	.form-control {
+		margin: 4px;
+		/* padding: 19px; */
+		border-radius: 0;
+		box-shadow: none;
+		height: 35px;
+		border: 1px solid #eee;
+	}
+
+	.cont_name {
+		background: #0ab1b9;
+		color: #fff;
+		font-size: 15px;
+		font-weight: 400;
+		padding: 5px 10px;
+	}
+</style>
+<div>
+	<section class="divider">
+		<div class="container" style="width:100%">
+			<div class="row pt-10">
+				<div class="col-md-7">
+					<div class="row contactInfo" style="height: 322px; overflow-y:scroll; overflow-x:hidden;">
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="shadow">
+								<div class="cont_name" style="text-align: left;"><b></b></div>
+								<div class="contactbox" style="min-height: 35px;">
+									<div class="col-md-12" style="font-size: 16px;text-align:center;margin: 5px;">
+										<label>Call Us at : -</label>
+										<label><b>0522-6666600<b /></label>&nbsp;<b>Or</b>&nbsp;
+										<label><b>0522-6666666</b></label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-5">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="shadow" id="tblContactUs">
+								<div class="cont_name" style="text-align: center;"><b>Query Form</b></div>
+								<div class="contactbox" style="min-height: 332px;">
+									<div class="col-md-3">
+										<label>Query Type</label>
+									</div>
+									<div class="col-md-1 hidden-xs">
+										<label>:</label>
+									</div>
+									<div class="col-md-8">
+										<select id="ddlQueryType" class="form-control" style="border: 1px solid gray;"></select>
+									</div>
+									<div class="col-md-3">
+										<label>Email Id </label>
+									</div>
+									<div class="col-md-1 hidden-xs">
+										<label>:</label>
+									</div>
+									<div class="col-md-8">
+										<input type="text" id="txtEmail" class="form-control" style="border: 1px solid gray;" placeholder="Enter Email Id" autocomplete="off">
+									</div>
+									<div class="col-md-3">
+										<label>Phone No</label>
+									</div>
+									<div class="col-md-1 hidden-xs">
+										<label>:</label>
+									</div>
+									<div class="col-md-8">
+										<input type="text" maxlength="10" id="txtMobile" class="form-control" style="border: 1px solid gray;" autocomplete="off" placeholder="Enter 10 Digit Mobile No">
+									</div>
+									<div class="col-md-3">
+										<label>Subject</label>
+									</div>
+									<div class="col-md-1 hidden-xs">
+										<label>:</label>
+									</div>
+									<div class="col-md-8">
+										<input type="text" id="txtSubject" class="form-control" style="border: 1px solid gray;" autocomplete="off" placeholder="Enter Subject">
+									</div>
+									<div class="col-md-3">
+										<label>Message</label>
+									</div>
+									<div class="col-md-1 hidden-xs">
+										<label>:</label>
+									</div>
+									<div class="col-md-8">
+										<textarea rows="2" cols="47" id="txtMessage" style="border: 1px solid gray; margin-left: 4px;" placeholder="Enter Message"></textarea>
+									</div>
+									<div class="col-md-3 uploadsection" style="display:none">
+										<label>Attachment</label>
+									</div>
+									<div class="col-md-1 uploadsection hidden-xs" style="display:none">
+										<label>:</label>
+									</div>
+									<div class="col-md-8 uploadsection" style="display:none">
+										<div class="input-group" id="uploadGroup">
+											<input type="file" id="fileAttach" style="margin-left:4px;">
+										</div>
+									</div>
+									<p class="col-md-12 text-center">
+										<input type="submit" value="Submit" id="btnSendQuery" class="btn btn-success" style="margin-left: 80px;">
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-12">
+			<div class="row">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2516.555001112124!2d81.02113954585107!3d26.873449925744925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399be28f0849ab93%3A0xacf8b701d160f69b!2sChandan+Hospital!5e0!3m2!1sen!2sin!4v1563778649680!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border: 0" allowfullscreen=""></iframe>
+			</div>
+		</div>
+	</section>
+</div>

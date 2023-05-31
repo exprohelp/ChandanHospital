@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "NephrologyUrology";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+<script>
+    $(document).ready(function () {
+        sessionStorage.setItem('DeptId', 'WD15')
+    });
+</script>
+
+@Html.Partial("DepartmentInfo")

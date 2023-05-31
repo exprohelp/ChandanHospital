@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "NeuroScience";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+
+<script>
+    $(document).ready(function () {
+        sessionStorage.setItem('DeptId', 'WD16')
+    });
+</script>
+@Html.Partial("DepartmentInfo")

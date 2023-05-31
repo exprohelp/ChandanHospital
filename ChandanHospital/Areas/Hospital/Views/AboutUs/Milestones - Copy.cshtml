@@ -1,0 +1,450 @@
+﻿
+@{
+    ViewBag.Title = "Milestones";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+
+<style>
+    .main-timeline {
+        padding-top: 50px;
+        overflow: hidden;
+        position: relative;
+    }
+
+        .main-timeline:before {
+            content: "";
+            width: 7px;
+            height: 100%;
+            background: #084772;
+            margin: 0 auto;
+            position: absolute;
+            top: 80px;
+            left: 0;
+            right: 0;
+        }
+
+        .main-timeline .timeline {
+            width: 50%;
+            float: left;
+            padding: 21px 33px;
+            border-top: 7px solid #084772;
+            border-right: 7px solid #084772;
+            border-radius: 0 30px 0 0;
+            position: relative;
+            right: -3.5px;
+        }
+
+        .main-timeline .icon {
+            display: block;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            border-radius: 50%;
+            background: #e84c47;
+            border: 1px solid #fff;
+            text-align: center;
+            font-size: 25px;
+            color: #fff;
+            box-shadow: 0 0 0 2px #e84c47;
+            position: absolute;
+            top: -30px;
+            left: 0;
+        }
+
+        .main-timeline .timeline-content {
+            display: block;
+            padding: 30px 10px 10px;
+            border-radius: 20px;
+            background: #e84c47;
+            color: #fff;
+            position: relative;
+        }
+
+            .main-timeline .timeline-content:hover {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            .main-timeline .timeline-content:before,
+            .main-timeline .timeline-content:after {
+                content: "";
+                display: block;
+                width: 10px;
+                height: 50px;
+                border-radius: 10px;
+                background: #e84c47;
+                border: 1px solid #fff;
+                position: absolute;
+                top: -35px;
+                left: 50px;
+            }
+
+            .main-timeline .timeline-content:after {
+                left: auto;
+                right: 50px;
+            }
+
+        .main-timeline .title {
+            font-size: 40px;
+            text-align: center;
+            margin-top: -29px;
+        }
+
+        .main-timeline .description {
+            font-size: 15px;
+            letter-spacing: 1px;
+            margin: 0 0 5px 0;
+        }
+
+        .main-timeline .timeline:nth-child(2n) {
+            border-right: none;
+            border-left: 7px solid #084772;
+            border-radius: 30px 0 0 0;
+            right: auto;
+            left: -3.5px;
+        }
+
+            .main-timeline .timeline:nth-child(2n) .icon {
+                left: auto;
+                right: 0;
+            }
+
+        .main-timeline .timeline:nth-child(2) {
+            margin-top: 130px;
+        }
+
+        .main-timeline .timeline:nth-child(odd) {
+            margin: -130px 0 30px 0;
+        }
+
+        .main-timeline .timeline:nth-child(even) {
+            margin-bottom: 30px;
+        }
+
+        .main-timeline .timeline:first-child,
+        .main-timeline .timeline:last-child:nth-child(even) {
+            margin: 0 0 30px 0;
+        }
+
+        .main-timeline .timeline:nth-child(2n) .timeline-content,
+        .main-timeline .timeline:nth-child(2n) .timeline-content:before,
+        .main-timeline .timeline:nth-child(2n) .timeline-content:after,
+        .main-timeline .timeline:nth-child(2n) .icon {
+            background: #4bd9bf;
+        }
+
+        .main-timeline .timeline:nth-child(2n) .icon {
+            box-shadow: 0 0 0 2px #4bd9bf;
+        }
+
+        .main-timeline .timeline:nth-child(3n) .timeline-content,
+        .main-timeline .timeline:nth-child(3n) .timeline-content:before,
+        .main-timeline .timeline:nth-child(3n) .timeline-content:after,
+        .main-timeline .timeline:nth-child(3n) .icon {
+            background: #ff9e09;
+        }
+
+        .main-timeline .timeline:nth-child(3n) .icon {
+            box-shadow: 0 0 0 2px #ff9e09;
+        }
+
+        .main-timeline .timeline:nth-child(4n) .timeline-content,
+        .main-timeline .timeline:nth-child(4n) .timeline-content:before,
+        .main-timeline .timeline:nth-child(4n) .timeline-content:after,
+        .main-timeline .timeline:nth-child(4n) .icon {
+            background: #3ebae7;
+        }
+
+        .main-timeline .timeline:nth-child(4n) .icon {
+            box-shadow: 0 0 0 2px #3ebae7;
+        }
+</style>
+<script>
+        $(function () {
+            SetSlidHeading("From the Desk of Chairman");
+        });
+</script>
+<section class="inner-header divider parallax layer-overlay overlay-white-5" data-bg-img="/Content/images/bg/b1.jpg" style="background-image: url(&quot;/content/images/bg/b1.jpg&quot;); background-position: 50% 63px;">
+    <div class="container pt-40 pb-20">
+        <!-- Section Content -->
+        <div class="section-content">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="title" id="hPageHeading">Milestones</h2>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="section-content" id="print">
+            <div class="col-xs-12 col-sm-12 col-md-12 pull-left flip">         
+                <div class="row">
+                    <div class="col-md-12">                 
+                        <div class="main-timeline">   					
+                            <div class="timeline">
+                                <span class="icon fa fa-user-md"></span>
+                                <a href="#" class="timeline-content">
+                                    <h3 class="title">Jan- 22</h3>
+                                    <p class="description">
+                                        <ol>
+                                            <li>
+												<h4>
+													<i class="fa fa-hand-o-right"></i>&nbsp;3 Tesla MRI Machine<br />
+													<i class="fa fa-hand-o-right"></i>&nbsp;Ambulance 24x7 (On-site Critical Care Service)
+												</h4>
+                                            </li>
+                                        </ol>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="timeline">
+                                <span class="icon fa fa-medkit"></span>
+                                <a href="#" class="timeline-content">
+                                    <h3 class="title">Dec-21</h3>
+                                    <p class="description">
+                                        <ol>
+                                            <li>
+												<h4>
+													<i class="fa fa-hand-o-right"></i>&nbsp;Advanced 4K Laparoscopic Tower													
+												</h4>
+                                            </li>
+                                        </ol>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="timeline">
+                                <span class="icon fa fa-flask"></span>
+                                <a href="#" class="timeline-content">
+									<h3 class="title">
+										Nov-21
+									</h3>
+                                    <p class="description">
+                                        <ol>
+                                            <li>
+												<h4>
+													<i class="fa fa-hand-o-right"></i>&nbsp; 3 ACLS Ambulance<br />
+													<i class="fa fa-hand-o-right"></i>&nbsp; NABH for Emergency Department<br />
+													<i class="fa fa-hand-o-right"></i>&nbsp; Clinical Trials
+												</h4>
+                                            </li>
+                                        </ol>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="timeline">
+                                <span class="icon fa fa-certificate"></span>
+                                <a href="#" class="timeline-content">
+									<h3 class="title">
+										Sep-21
+									</h3>
+                                    <p class="description">
+                                        <ol>
+                                            <li>
+												<h4>
+													<i class="fa fa-hand-o-right"></i>&nbsp;Oxygen Generation Plant
+												</h4>
+                                            </li>
+                                            @*<li>
+                                                <h4><i class="fa fa-hand-o-right"></i>&nbsp;Diagnostic Centre at Delhi.</h4>
+                                            </li>*@
+
+                                        </ol>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="timeline">
+                                <span class="icon fa fa-user-md"></span>
+                                <a href="#" class="timeline-content">
+									<h3 class="title">
+										Aug-21
+									</h3>
+                                    <p class="description">
+                                        <ol>
+                                            <li>
+												<h4>
+													<i class="fa fa-hand-o-right"></i>&nbsp;QAI in Chandan Dialysis Centre
+												</h4>
+                                            </li>
+                                        </ol>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="timeline">
+                                <span class="icon fa fa-user-md"></span>
+                                <a href="#" class="timeline-content">
+									<h3 class="title">
+										Jun-21
+									</h3>
+                                    <p class="description">
+                                        <ol>
+                                            <li>
+												<h4>
+													<i class="fa fa-hand-o-right"></i>&nbsp;Upgradation of Cath Lab (Philips Azurion 7)<br />
+													<i class="fa fa-hand-o-right"></i>&nbsp;DNB
+												</h4>
+                                            </li>
+                                        </ol>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="timeline">
+                                <span class="icon fa fa-medkit"></span>
+                                <a href="#" class="timeline-content">
+									<h3 class="title">
+										Mar-21
+									</h3>
+                                    <p class="description">
+                                        <ol>
+                                            <li>
+												<h4>
+													<i class="fa fa-hand-o-right"></i>&nbsp;Corneal Transplant<br />
+													<i class="fa fa-hand-o-right"></i>&nbsp;NABH Accreditation
+												</h4>
+                                            </li>
+                                        </ol>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="timeline">
+                                <span class="icon fa fa-user-md"></span>
+                                <a href="#" class="timeline-content">
+									<h3 class="title">
+										Feb-21
+									</h3>
+                                    <p class="description">
+                                        <ol>
+                                            <li>
+												<h4>
+													<i class="fa fa-hand-o-right"></i>&nbsp;2D Echo RpiQ CVx-3D Echo with 4D TEF First in UP
+												</h4>
+                                            </li>
+                                        </ol>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="timeline">
+                                <span class="icon fa fa-certificate"></span>
+                                <a href="#" class="timeline-content">
+									<h3 class="title">
+										Jan-21
+									</h3>
+                                    <p class="description">
+                                        <ol>
+                                            <li>
+												<h4>
+													<i class="fa fa-hand-o-right"></i>&nbsp;EBUS(Endobronchial Ultrasound) and EUS(Endoscopic Ultrasound)
+												</h4>
+                                            </li>
+                                        </ol>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="timeline">
+                                <span class="icon fa fa-user-md"></span>
+                                <a href="#" class="timeline-content">
+									<h3 class="title">
+										Aug-20
+									</h3>
+                                    <p class="description">
+                                        <ol>
+                                            <li>
+												<h4>
+													<i class="fa fa-hand-o-right"></i>&nbsp;ECMO (Extracorporeal Membrane Oxygenation)
+												</h4>
+                                            </li>
+                                        </ol>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="timeline">
+                                <span class="icon fa fa-heartbeat"></span>
+                                <a href="#" class="timeline-content">
+									<h3 class="title">
+										Jun-20
+									</h3>
+                                    <p class="description">
+                                        <ol>
+                                            <li>
+												<h4>
+													<i class="fa fa-hand-o-right"></i>&nbsp;Digital Radiography System<br />
+													<i class="fa fa-hand-o-right"></i>&nbsp;3 new Modular Operation Theatres<br />
+													<i class="fa fa-hand-o-right"></i>&nbsp;128 Slice CT Scan
+												</h4>
+                                            </li>
+                                        </ol>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="timeline">
+                                <span class="icon fa fa-user-md"></span>
+                                <a href="#" class="timeline-content">
+									<h3 class="title">
+										Oct-19
+									</h3>
+                                    <p class="description">
+                                        <ol>
+                                            <li>
+												<h4>
+													<i class="fa fa-hand-o-right"></i>&nbsp;Kidney Transplant
+												</h4>
+                                            </li>
+                                        </ol>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="timeline">
+                                <span class="icon fa fa-user-md"></span>
+                                <a href="#" class="timeline-content">
+									<h3 class="title">Jul-19</h3>
+                                    <p class="description">
+                                        <ol>
+                                            <li>
+												<h4>
+													<i class="fa fa-hand-o-right"></i>&nbsp;First Sleep Study lab in UP
+												</h4>
+                                            </li>
+                                        </ol>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="timeline">
+                                <span class="icon fa fa-user-md"></span>
+                                <a href="#" class="timeline-content">
+                                    <h3 class="title">FEB 19</h3>
+                                    <p class="description">
+                                        <ol>
+                                            <li>
+												<h4>
+													<i class="fa fa-hand-o-right"></i>&nbsp;QCI
+												</h4>
+                                            </li>
+                                        </ol>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="timeline">
+                                <span class="icon fa fa-user-md"></span>
+                                <a href="#" class="timeline-content">
+                                    <h3 class="title">JAN- 19</h3>
+                                    <p class="description">
+                                        <ol>
+                                            <li>
+												<h4>
+													<i class="fa fa-hand-o-right"></i>&nbsp;Cardiac Surgery
+												</h4>
+                                            </li>
+                                        </ol>
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>          
+        </div>
+    </div>
+</section>
+

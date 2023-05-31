@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "PainManagement";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+
+<script>
+    $(document).ready(function () {
+        sessionStorage.setItem('DeptId', 'WD20')
+    });
+</script>
+@Html.Partial("DepartmentInfo")

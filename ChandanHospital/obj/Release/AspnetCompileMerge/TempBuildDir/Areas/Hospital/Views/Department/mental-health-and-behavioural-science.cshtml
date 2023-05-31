@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "MentalHealthAndBehaviouralScience";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+
+
+<script>
+    $(document).ready(function () {
+        sessionStorage.setItem('DeptId', 'WD22')
+    });
+</script>
+@Html.Partial("DepartmentInfo")

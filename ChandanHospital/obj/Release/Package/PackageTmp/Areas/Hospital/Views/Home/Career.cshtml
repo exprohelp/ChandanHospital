@@ -1,0 +1,81 @@
+﻿
+@{
+    ViewBag.Title = "Career";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+<style>
+    .title-opening {
+        text-align: left !important;
+        background-color: #016489;
+        color: #fff;
+        font-size: 15px;
+    }
+</style>
+<script src="~/Areas/Hospital/JsModule/Career.js"></script>
+<section class="inner-header divider parallax layer-overlay overlay-white-5" style="background-image: url(&quot;/Content/images/bg/b1.jpg&quot;), url(&quot;/Content/images/bg/b1.jpg&quot;); background-position: 50% 79px;">
+    <div class="container pt-40 pb-20">
+        <!-- Section Content -->
+        <div class="section-content">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="title" id="hPageHeading">Career</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="section-content">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 pull-left flip">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2>Join Us</h2>
+                            <p>
+                                Our real strength lies in our employees as they are the most valuable asset we have.
+                                Our belief in our employees, their performance, integrity and a strong system of values, standards and quality had made us one of the most admired companies in the Indian healthcare industry.
+                                Because of our passion for excellence, we are committed to hiring, developing, motivating and retaining the best people in the industry.
+                            </p>
+                            <p>
+                                We are always on the look-out for talented people who are passionate about healthcare.
+                                If you wish to be part of the 700+ strong team of Chandan and want to work in a rewarding
+                                environment please send us your CV on <a href="#" style="color: #0094ff">hr@chandan.co.in</a>
+                            </p>
+                       
+                    
+                            <div class="panel panel-primary">
+                                <div class="panel-heading" style="background-color: #016489; color: #fff;">
+                                    <span id="jobinfo" style="color: #fff">Submit Details</span>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="row" id="divemail">
+                                        <div class="col-md-1">
+                                            Email <span class="validate" style="color: red;">*</span>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <input type="text" id="txtEmail" class="form-control" placeholder="Enter Email">
+                                        </div>
+                                        <div class="col-md-2">
+                                            Upload Resume <span class="validate" style="color: red;">*</span>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <input type="file" name="fileCV" id="fileCV">
+                                        </div>
+                                        <div class="col-md-1">
+                                            &nbsp;
+                                        </div>
+                                        <div class="col-md-2">
+                                            <input type="submit" value="Upload" onclick="SendMailToHR()" id="btnSendCV" class="btn btn-info">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

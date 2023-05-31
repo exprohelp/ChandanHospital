@@ -1,0 +1,13 @@
+﻿
+@{
+	ViewBag.Title = "BloodBank";
+	Layout = "~/Views/Shared/_layout.cshtml";
+}
+
+
+<script>
+	$(document).ready(function () {
+		sessionStorage.setItem('DeptId', 'WD29')
+	});
+</script>
+@Html.Partial("DepartmentInfo")

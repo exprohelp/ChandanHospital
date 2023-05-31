@@ -1,0 +1,13 @@
+﻿.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    padding: 5px !important;
+    text-align: left;
+}
+
+th {
+    background-color: #5bc0de;
+}
+
+.logoheight {
+    max-height: 68px;
+    max-width: 100px;
+}

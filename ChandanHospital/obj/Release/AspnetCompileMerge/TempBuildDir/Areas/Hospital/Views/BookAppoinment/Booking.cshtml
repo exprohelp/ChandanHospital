@@ -1,0 +1,301 @@
+﻿
+@{
+	ViewBag.Title = "Booking";
+	Layout = "~/Views/Shared/_layout.cshtml";
+}
+
+<script src="~/JsModule/global.js"></script>
+<script src="~/Areas/Hospital/JsModule/Appoinment/Appoinment.js"></script>
+<style>
+	.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+		padding: 5px !important;
+		font-size: 12px !important;
+	}
+
+	th {
+		background-color: #0ab1b9;
+		color: #fff;
+	}
+
+	td > a {
+		margin-left: 5px;
+	}
+
+	#opd .form-control {
+		height: 22px !important;
+		font-size: 12px !important;
+		padding: 0 10px !important
+	}
+
+	.btn {
+		font-size: 12px;
+		padding: 5px 5px !important;
+	}
+
+	.datepicker .next.disabled, .datepicker .prev.disabled {
+		visibility: inherit !important;
+	}
+
+	.styled-icons.icon-sm a {
+		line-height: 31px !important;
+	}
+</style>
+<style>
+	body {
+		font-family: Arial;
+	}
+
+	/* Style the tab */
+	.tab {
+		overflow: hidden;
+		border: 1px solid #ccc;
+		background-color: #f1f1f1;
+	}
+
+		/* Style the buttons inside the tab */
+		.tab button {
+			background-color: inherit;
+			float: left;
+			border: none;
+			outline: none;
+			cursor: pointer;
+			padding: 5px 16px;
+			transition: 0.3s;
+			font-size: 17px;
+		}
+
+			/* Change background color of buttons on hover */
+			.tab button:hover {
+				background-color: #ddd;
+			}
+
+			/* Create an active/current tablink class */
+			.tab button.active {
+				background-color: #ccc;
+			}
+
+	/* Style the tab content */
+	.tabcontent {
+		display: none;
+		padding: 6px 12px;
+		border: 1px solid #ccc;
+		border-top: none;
+	}
+</style>
+<style>
+	.Inactive {
+		pointer-events: none;
+		opacity: 0.5;
+	}
+
+	.tabcontent .form-control {
+		height: 35px;
+	}
+
+	#lblMsg {
+		text-align: center;
+		opacity: unset;
+	}
+
+	span.mendat {
+		color: red;
+	}
+</style>
+<script>
+	function openCity(evt, cityName) {
+		var i, tabcontent, tablinks;
+		tabcontent = document.getElementsByClassName("tabcontent");
+		for (i = 0; i < tabcontent.length; i++) {
+			tabcontent[i].style.display = "none";
+		}
+		tablinks = document.getElementsByClassName("tablinks");
+		for (i = 0; i < tablinks.length; i++) {
+			tablinks[i].className = tablinks[i].className.replace(" active", "");
+		}
+		document.getElementById(cityName).style.display = "block";
+		evt.currentTarget.className += " active";
+	}
+</script>
+<script src="~/JsModule/global.js"></script>
+<script src="~/Areas/Hospital/JsModule/Appoinment/Appoinment.js"></script>
+<script src="~/Areas/Hospital/JsModule/Appoinment/OnlineConsultation.js"></script>
+<section class="inner-header divider parallax layer-overlay overlay-white-5" style="background-image: url(&quot;/Content/images/bg/b1.jpg&quot;), url(&quot;/Content/images/bg/b1.jpg&quot;); background-position: 50% 79px;">
+	<div class="container pt-40 pb-20">
+		<!-- Section Content -->
+		<div class="section-content">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h2 class="title" id="hPageHeading">Booking</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<div class="section-content">
+			<div class="row">
+				<div class="col-md-12 table-responsive">
+					<div class="tab">
+						<button class="tablinks" onclick="openCity(event, 'opd')">OPD Appointment</button>
+						<button class="tablinks" onclick="openCity(event, 'online')">Online Consultation</button>
+
+					</div>
+
+					<div id="opd" class="tabcontent">
+						<div class="row">
+							<div class="col-md-6 table-responsive">
+								<table class="table table-bordered">
+									<tbody>
+										<tr>
+											<td style="text-align: left"><b>Hospital:</b></td>
+											<td>
+												<select id="ddlHospitals" disabled="disabled" class="aspNetDisabled form-control">
+													<option value="0">--Please Select--</option>
+													<option selected="selected" value="1">Chandan Hospital</option>
+												</select>
+											</td>
+										</tr>
+										<tr>
+											<td style="text-align: left">
+												<b>Department:</b>
+											</td>
+											<td>
+												<select id="ddlDepartment" onchange="GetDoctors()" class="form-control">
+													<option>Please Select</option>
+												</select>
+											</td>
+										</tr>
+										<tr>
+											<td style="text-align: left">
+												<b>Doctors:</b>
+											</td>
+											<td>
+												<select id="ddlDoctors" class="form-control">
+													<option>Please Select</option>
+												</select>
+											</td>
+										</tr>
+										<tr>
+											<td style="text-align: left"><b>Choose Date:</b></td>
+											<td>
+												<input type="date" id="txtDate" class="form-control" autocomplete="off" Placeholder="Choose Appointment Date" />
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<input type="submit" value="Get Time Slot" onclick="GetBookingTimeSlot()" id="btnTime" class="btn btn-success btn-sm" />
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="col-md-6 table-responsive" style="height: 400px; overflow: auto">
+								<div class="scroll">
+									<table class="table table-bordered" id="tblBookingDetail">
+										<thead>
+											<tr>
+												<th>S.No.</th>
+												<th>From</th>
+												<th>To</th>
+												<th>Action</th>
+											</tr>
+										</thead>
+										<tbody></tbody>
+									</table>
+								</div>
+								<div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div id="online" class="tabcontent" style="padding: 5px 25px;">
+						<div class="row">
+							<div class="panel">
+								<div class="panel-body">
+									<div class="example-box-wrapper">
+										<div class="row">
+											<div class="col-xs-6 col-md-3">
+												<label class="">Mobile No<span class="mendat">*</span></label>
+												<input type="text" id="txtMobile" maxlength="10" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" class="form-control" placeholder="Mobile No.">
+											</div>
+										</div>
+										<div id="divFormBody">
+											<div class="row">
+												<div class="col-xs-6 col-md-3">
+													<label class="">Patient Name<span class="mendat">*</span></label>
+													<input type="text" id="txtPatientName" class="form-control" placeholder="Patient Name">
+
+												</div>
+												<div class="col-xs-6 col-md-3">
+													<label class="">Gender <span class="mendat">*</span></label>
+													<select id="ddlGender" class="form-control">
+														<option>Select Gender</option>
+														<option>Male</option>
+														<option>Female</option>
+														<option>Other</option>
+													</select>
+
+												</div>
+
+												<div class="col-xs-6 col-md-3">
+													<label class="">DOB</label>
+													<input type="date" id="txtDob" class="form-control">
+												</div>
+												<div class="col-xs-6 col-md-3">
+													<div class="form-group">
+														<label class="">Email</label>
+														<input type="email" id="txtEmail" class="form-control" placeholder="Email">
+													</div>
+												</div>
+											</div>
+											<div class="row">
+
+												<div class="col-xs-12 col-md-6">
+													<div class="form-group">
+														<label class="">Address</label>
+														<input type="text" id="txtAddress" class="form-control" placeholder="Address">
+													</div>
+												</div>
+												<div class="col-xs-6 col-md-3">
+													<label class="">City</label>
+													<input type="text" id="txtCity" class="form-control" placeholder="City" />
+												</div>
+												<div class="col-xs-6 col-md-3">
+													<div class="form-group">
+														<label class="">State</label>
+														<input type="text" id="txtState" class="form-control" placeholder="State" />
+
+													</div>
+												</div>
+												<div class="col-xs-12 col-md-4">
+													<div class="form-group">
+														<label class="">Concern</label>
+														<textarea id="txtAppomtReason" class="form-control" placeholder="Concern"></textarea>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-12">
+													<input type="checkbox" id="ChkCondition"> Accept <a href="ChandanTermsAndCondition.pdf">Terms and Conditions</a>.
+													@*<input type="checkbox" id="chkCondition" value="1" onchange="valueChanged()" /> Accept Terms and Conditions.*@
+													<div class="input-group-btn">
+														<input type="button" id="btnSubmit" disabled="" onclick="InsertOnlineDoctorAppoinment()" class="btn btn-success" value="Submit" />
+														<input type="button" id="btnClear" class="btn btn-warning" value="Clear" />
+													</div>
+													<label id="lblMsg"></label>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>					
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+

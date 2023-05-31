@@ -1,0 +1,124 @@
+﻿
+@{
+    ViewBag.Title = "Appointment";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+<script src="~/JsModule/global.js"></script>
+<script src="~/Areas/Hospital/JsModule/Appoinment/Appoinment.js?v1.2"></script>
+<style>
+    .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+        padding: 5px !important;
+        font-size: 12px !important;
+    }
+
+    th {
+        background-color: #0ab1b9;
+        color: #fff;
+    }
+
+    td > a {
+        margin-left: 5px;
+    }
+
+    .form-control {
+        height: 22px !important;
+        font-size: 12px !important;
+        padding: 0 10px !important
+    }
+
+    .btn {
+        font-size: 12px;
+        padding: 5px 5px !important;
+    }
+
+    .datepicker .next.disabled, .datepicker .prev.disabled {
+        visibility: inherit !important;
+    }
+
+    .styled-icons.icon-sm a {
+        line-height: 31px !important;
+    }
+</style>
+<section class="inner-header divider parallax layer-overlay overlay-white-5" style="background-image: url(&quot;/Content/images/bg/b1.jpg&quot;), url(&quot;/Content/images/bg/b1.jpg&quot;); background-position: 50% 79px;">
+    <div class="container pt-40 pb-20">
+        <!-- Section Content -->
+        <div class="section-content">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="title" id="hPageHeading">Appointment</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="section-content">
+            <div class="row">
+                <div class="col-md-6 table-responsive">
+                    <table class="table table-bordered">
+                        <tbody>
+                            <tr>
+                                <td style="text-align: left"><b>Hospital:</b></td>
+                                <td>
+                                    <select id="ddlHospitals" disabled="disabled" class="aspNetDisabled form-control">
+                                        <option value="0">--Please Select--</option>
+                                        <option selected="selected" value="1">Chandan Hospital</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left">
+                                    <b>Department:</b>
+                                </td>
+                                <td>
+                                    <select id="ddlDepartment" onchange="GetDoctors()" class="form-control">
+                                        <option>Please Select</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left">
+                                    <b>Doctors:</b>
+                                </td>
+                                <td>
+                                    <select id="ddlDoctors" class="form-control">
+                                        <option>PleaseSelect</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left"><b>Choose Date:</b></td>
+                                <td>
+                                    <input type="date" id="txtDate" class="form-control" autocomplete="off" Placeholder="Choose Appointment Date" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <input type="submit" value="Book Time Slot" onclick="GetBookingTimeSlot()" id="btnTime" class="btn btn-success btn-sm" />
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-6 table-responsive" style="height: 400px; overflow: auto">
+                    <div class="scroll">
+                        <table class="table table-bordered" id="tblBookingDetail">
+                            <thead>
+                                <tr>
+                                    <th>Sr.No</th>
+                                    <th>Time From</th>
+                                    <th>Time To</th>                                
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

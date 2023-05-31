@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewBag.Title = "Ent";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+<script>
+    $(document).ready(function () {
+        sessionStorage.setItem('DeptId','WD10')
+    });
+</script>
+@Html.Partial("DepartmentInfo")

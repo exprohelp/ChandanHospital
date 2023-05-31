@@ -1,0 +1,119 @@
+﻿
+@{
+    ViewBag.Title = "AppointmentSuccess";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+<script src="~/Areas/Hospital/JsModule/Appoinment/AppoinmentSuccess.js?1.0"></script>
+<div>
+    <br>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="container">
+                <div class="section-content">
+                    <div class="row">
+                        <div class="col-md-6" style="margin: 0 auto; float: none">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <input type="submit" value="Print" onclick="printDiv('PrintArea','Title');" id="btnPrint" class="btn btn-info">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="PrintArea" class="col-md-6 table-responsive" style="margin: 0 auto; float: none">
+                            <table class="table table-bordered">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <img id="chandanlogo" src="/Content/images/logo-wide.png" align="middle" style="height:68px;width:200px;">
+                                        </td>
+                                        <td style="text-align: center">
+                                            <p><b>Email:care@chandanhospital.in</b></p>
+                                            <p><b>Contact:0522-6666666</b></p>
+                                            <p><b>Address: Vijyant Khand,Faizabad Road,Near High Court,Lucknow</b></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <p>
+                                                <b>
+                                                    <span id="lblmsg" style="color:Green;">Congratulation!! Your Appointment has been booked successfully</span>
+                                                </b>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"><b>Appointment Details </b></td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Appointment Id:</b></td>
+                                        <td>
+                                            <span id="lblAppId">XXXXXXX</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Hospital Name:</b></td>
+                                        <td>
+                                            <span id="lblHospitalname">XXXXXX</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <b>Department:</b>
+                                        </td>
+                                        <td>
+                                            <span id="lblDepartmentName">XXXXXX</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <b>Patient Name:</b>
+                                        </td>
+                                        <td>
+                                            <span id="lblPatientName">XXXXXX</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <b>Doctors:</b>
+                                        </td>
+                                        <td>
+                                            <span id="lblDoctors">XXXXXX</span>
+                                        </td>
+                                    </tr>
+                                    <tr style="display:none">
+                                        <td>
+                                            <b>Doctors Id:</b>
+                                        </td>
+                                        <td>
+                                            <span id="lblDocId">XXXXXX</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Appointment Time</b></td>
+                                        <td>
+                                            <span id="lblAppitmentTime">XXXXXX</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Appointment Status</b></td>
+                                        <td>
+                                            <span id="lblAppStatus" style="color:#006600;font-weight:bold;">Confirmed</span>
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

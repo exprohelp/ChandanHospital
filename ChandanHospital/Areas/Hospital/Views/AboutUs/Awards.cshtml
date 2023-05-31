@@ -1,0 +1,90 @@
+﻿
+@{
+	ViewBag.Title = "Best Hospital in Lucknow | Best Multispeciality Hospital in Lucknow";
+	Layout = "~/Views/Shared/_layout.cshtml";
+}
+@section metatags{
+	<meta name="keywords" content="Chandan Hospital, a 200 bedded multi-specialty hospital in Lucknow, multi-disciplinary, super-specialty, tertiary care hospital with a complete range of disciplines offered under one roof aiming to provide world-class facilities." />
+	<meta name="description" content="Chandan Hospital, a 200 bedded multi-specialty hospital in Lucknow, multi-disciplinary, super-specialty, tertiary care hospital with a complete range of disciplines offered under one roof aiming to provide world-class facilities" />
+}
+<style>
+	.award {
+		border: 2px solid #0ab1b9;
+		padding: 3px;
+		cursor: pointer;
+		margin-bottom: 15px;
+	}
+
+		.award img {
+			height: 150px;
+			width: 100%
+		}
+
+		.award h3 {
+			vertical-align: central;
+			min-height: 116px;
+			margin: 0;
+			text-align: center;
+			padding: 10px;
+			font-size: 11px;
+			background: #0ab1b9;
+			color: #fff;
+		}
+
+	.image-source-link {
+		color: #98C3D1;
+	}
+
+	.mfp-with-zoom .mfp-container,
+	.mfp-with-zoom.mfp-bg {
+		opacity: 0;
+		-webkit-backface-visibility: hidden;
+		/* ideally, transition speed should match zoom duration */
+		-webkit-transition: all 0.3s ease-out;
+		-moz-transition: all 0.3s ease-out;
+		-o-transition: all 0.3s ease-out;
+		transition: all 0.3s ease-out;
+	}
+
+	.mfp-with-zoom.mfp-ready .mfp-container {
+		opacity: 1;
+	}
+
+	.mfp-with-zoom.mfp-ready.mfp-bg {
+		opacity: 0.8;
+	}
+
+	.mfp-with-zoom.mfp-removing .mfp-container,
+	.mfp-with-zoom.mfp-removing.mfp-bg {
+		opacity: 0;
+	}
+
+	.award:hover {
+		box-shadow: -3px 1px 12px #666;
+	}
+</style>
+
+<section class="inner-header divider parallax layer-overlay overlay-white-5" style="background-image: url(&quot;/Content/images/bg/b1.jpg&quot;), url(&quot;../Content/images/bg/b1.jpg&quot;); background-position: 50% 69px;">
+	<div class="container pt-40 pb-20">
+		<!-- Section Content -->
+		<div class="section-content">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h2 class="title" id="hPageHeading">Chandan Awards</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<div class="section-content" id="print">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 pull-left flip">
+					<div class="row AwardInfo"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<script src="~/Areas/Hospital/JsModule/About/Award.js"></script>

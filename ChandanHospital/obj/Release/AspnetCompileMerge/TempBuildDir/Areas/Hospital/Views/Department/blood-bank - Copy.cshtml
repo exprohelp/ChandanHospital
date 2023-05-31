@@ -1,0 +1,179 @@
+﻿
+@{
+    ViewBag.Title = "BloodBank";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+
+<link href="~/Content/css/Department.css" rel="stylesheet" />
+
+<section class="inner-header divider parallax layer-overlay overlay-white-5" style="background-image: url(&quot;/Content/images/bg/b1.jpg&quot;), url(&quot;../Content/images/bg/b1.jpg&quot;); background-position: 50% 79px;">
+    <div class="container pt-40 pb-20">
+        <!-- Section Content -->
+        <div class="section-content">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="title" id="hPageHeading">Chandan Hospital Blood Bank</h2>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="section-content">
+            <div class="row">
+                <div class="col-lg-12 col-xs-12 col-sm-8 col-md-8 pull-left flip">
+                    <div id="mydiv" class="loader" style="display: none">
+                        <img src="images/Loading%20new.gif" class="ajax-loader" alt="loading">
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="panel panel-primary">
+                                            <div class="panel-heading">
+                                                <h4>ABOUT DEPARTMENT</h4>
+                                            </div>
+                                            <div class="panel-body">
+
+                                                <h4>Chandan Hospital Blood Bank</h4>
+                                                <p></p><p><strong>Blood bank&nbsp;</strong>at Chandan Hospital is a center where blood gathered as a result of blood donation is stored and preserved for later use in blood transfusion.</p>
+
+                                                <p><strong>Whole blood or blood with RBC</strong>, is transfused to patients with anaemia/iron deficiency. It also helps to improve the oxygen saturation in blood. It can be stored at 1.0 °C-6.0 °C for 35–45 days.</p>
+
+                                                <p><strong>Platelet transfusion</strong>, is transfused to those who suffer from low platelet count. This can be stored at room temperature for 5–7 days. Plasma transfusion is indicated to patients with liver failure, severe infections or serious burns. Fresh frozen plasma can be stored at a very low temperature of -25 °C for up to 12 months.</p>
+                                                <p></p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="panel panel-primary">
+                                            <div class="panel-heading">
+                                                <h4>DOCTORS</h4>
+                                            </div>
+                                            <div class="panel-body">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="panel panel-primary">
+                                            <div class="panel-heading">
+                                                <h4>WHAT WE TREAT</h4>
+                                            </div>
+                                            <div class="panel-body">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="panel panel-primary">
+                                            <div class="panel-heading">
+                                                <h4>Media</h4>
+                                            </div>
+                                            <div class="panel-body">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="container">
+                                </div>
+                                <div id="modalRegister" class="modal fade" role="dialog">
+                                    <div class="modal-dialog modal-lg">
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header mobilecolor" style="padding: 0 12px; background: #198686">
+                                                <h3 id="lbldeptname" style="margin: 8px auto; font-size: 15px; text-align: center; color: #fff"></h3>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+                                                        <p id="lblmedialink" style="text-align: center; color: #000; font-size: 14px; font-weight: bold;"></p>
+                                                    </div>
+                                                    <br>
+                                                    <div id="divcontent">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="modal-footer" style="text-align:center">
+                                                <button class="btn btn-danger btn-xs" data-dismiss="modal">Close</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <script type="text/javascript">
+    function getWhatweTreat(elem) {
+        var treat = {};
+        var autoid = $(elem).data('autoid');
+        var deptid = $(elem).data('deptid');
+        var medialink = $(elem).data('medialink');
+        treat.autoid = autoid;
+        treat.deptid = deptid;
+        treat.medialink = medialink;
+        $.ajax({
+            type: "POST",
+            contentType: "application/json; charset=utf-8",
+            url: "WhatWeTreat.aspx/GetWhatWeTreat",
+            data: '{objdata: ' + JSON.stringify(treat) + '}',
+            dataType: "json",
+            success: function (response) {
+                debugger;
+                var r = JSON.parse(response.d);
+                if (r.Table.length > 0) {
+                    var htmlcontent = "";
+                    $("#divcontent").empty();
+                    $("#lbldeptname").text(r.Table[0].dept_name);
+                    $("#lblmedialink").text(r.Table[0].MediaLink);
+                    for (i = 0; i < r.Table.length; i++) {
+                        if (r.Table[0].Description != "") {
+                            if (r.Table[0].ImgPosition == "Top") {
+                                if (r.Table[0].ImgUrl != "") {
+                                    htmlcontent += '<img src= ../' + r.Table[i].ImgUrl + ' /> <br />';
+                                    htmlcontent += '<p style="font-size:14px">' + r.Table[0].Description + '</p> <br />';
+                                }
+                            }
+                            else {
+                                htmlcontent += '<p style="font-size:14px">' + r.Table[0].Description + '</p>';
+                                if (r.Table[0].ImgUrl != "") {
+                                    htmlcontent += '<img src= ../' + r.Table[0].ImgUrl + ' /> <br />';
+                                }
+                            }
+                        }
+                    }
+
+                    $("#divcontent").append(htmlcontent);
+
+                }
+            },
+            error: function (response) {
+                alert("Error while Getting Media");
+            }
+        });
+    }
+                                </script>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

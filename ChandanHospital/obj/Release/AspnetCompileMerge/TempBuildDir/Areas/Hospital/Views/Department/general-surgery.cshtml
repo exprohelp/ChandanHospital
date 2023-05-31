@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewBag.Title = "GeneralSurgery";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+<script>
+    $(document).ready(function () {
+        sessionStorage.setItem('DeptId', 'WD12')
+    });
+</script>
+@Html.Partial("DepartmentInfo")

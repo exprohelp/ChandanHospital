@@ -1,0 +1,219 @@
+﻿
+@{
+    ViewBag.Title = "Anaesthesia";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+
+<link href="~/Content/css/Department.css" rel="stylesheet" />
+<section>
+    <div class="container">
+        <div class="section-content">
+            <div class="row">
+                <div class="col-lg-12 col-xs-12 col-sm-8 col-md-8 pull-left flip">
+                    <div id="mydiv" class="loader" style="display: none">
+                        <img src="images/Loading%20new.gif" class="ajax-loader" alt="loading">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="panel panel-primary">
+                                            <div class="panel-heading">
+                                                <h4>ABOUT DEPARTMENT</h4>
+                                            </div>
+                                            <div class="panel-body">
+
+                                                <h4>Chandan Institute of Critical Care and Anaesthesiology</h4>
+                                                <p></p><h3><small><big>Chandan Institute of Critical Care and Anaesthesiology constitutes a devoted team of critical care doctors who deal with the most seriously ill patients. The critical care department comprises of seven different section whi</big><big>ch are Intensive Cardiac Care Unit (ICCU), High dependency Unit (HDU), Surgical Intensive Care Unit (SICU), Medical Intensive Care Unit (MICU), Kidney Transplant Unit and Post-anaesthesia Care Unit (PACU).</big></small></h3>
+
+                                                <h3><small><big>Our specialists are equipped to handle all kinds of medical eventualities, including multiple organ failures and severe trauma injuries. Our highly trained anaesthesiologists provide safe, consistent and continuous pre-operative care to sick patients undergoing complex and minimally invasive surgeries.</big></small></h3>
+                                                <p></p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="panel panel-primary">
+                                            <div class="panel-heading">
+                                                <h4>DOCTORS</h4>
+                                            </div>
+                                            <div class="panel-body">
+
+                                                <div class="row">
+                                                    <div class="card-columns">
+                                                        <div class="card">
+                                                            <div class="col-md-3 manageImage">
+
+                                                                <img src="http://exprohelp.com/hospdoc/Profile/Doctors/LSHHI9.jpg" style="width: 150px; height: 150px" class="img-circle profileimg">
+
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <div class="card-body">
+                                                                    <h5 class="card-title">Dr. Mohammad Farrukh Ansari</h5>
+                                                                    <p class="card-text"><small class="text-muted">MBBS, MD Anaesthesiology</small></p>
+                                                                    <hr>
+                                                                    <h5 class="card-title">Medical Director </h5>
+                                                                    <p class="card-text">Chandan Institute of Critical Care and Anaesthesiology</p>
+                                                                    <span><a href="ViewDoctorProfile.aspx?did=LSHHI9" class="btn btn-primary btn-sm pull-right">View Profile</a></span>
+
+                                                                    <br>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="panel panel-primary">
+                                            <div class="panel-heading">
+                                                <h4>WHAT WE TREAT</h4>
+                                            </div>
+                                            <div class="panel-body">
+
+
+                                                <a class="btn btn-outline-success btnborder" href="#" data-toggle="modal" data-target="#modalRegister" data-autoid="333" data-deptid="WD6" data-medialink="Post-Surgical Complications" onclick="getWhatweTreat(this)">Post-Surgical Complications</a>
+
+
+                                                <a class="btn btn-outline-success btnborder" href="#" data-toggle="modal" data-target="#modalRegister" data-autoid="78" data-deptid="WD6" data-medialink="All kinds of Neuro, Cardiac, Renal, Medical, Pulmonology and Surgical Critical Care Cases" onclick="getWhatweTreat(this)">All kinds of Neuro, Cardiac, Renal, Medical, Pulmonology and Surgical Critical Care Cases</a>
+
+
+                                                <a class="btn btn-outline-success btnborder" href="#" data-toggle="modal" data-target="#modalRegister" data-autoid="328" data-deptid="WD6" data-medialink="Sepsis " onclick="getWhatweTreat(this)">Sepsis </a>
+
+
+                                                <a class="btn btn-outline-success btnborder" href="#" data-toggle="modal" data-target="#modalRegister" data-autoid="329" data-deptid="WD6" data-medialink="Multi-Organ Failure " onclick="getWhatweTreat(this)">Multi-Organ Failure </a>
+
+
+                                                <a class="btn btn-outline-success btnborder" href="#" data-toggle="modal" data-target="#modalRegister" data-autoid="330" data-deptid="WD6" data-medialink="Respiratory Failure " onclick="getWhatweTreat(this)">Respiratory Failure </a>
+
+
+                                                <a class="btn btn-outline-success btnborder" href="#" data-toggle="modal" data-target="#modalRegister" data-autoid="331" data-deptid="WD6" data-medialink="Acute Renal Failure " onclick="getWhatweTreat(this)">Acute Renal Failure </a>
+
+
+                                                <a class="btn btn-outline-success btnborder" href="#" data-toggle="modal" data-target="#modalRegister" data-autoid="332" data-deptid="WD6" data-medialink="Trauma " onclick="getWhatweTreat(this)">Trauma </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="panel panel-primary">
+                                            <div class="panel-heading">
+                                                <h4>Media</h4>
+                                            </div>
+                                            <div class="panel-body">
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+
+                                <br>
+                                <div class="container">
+
+                                </div>
+
+
+
+                                <div id="modalRegister" class="modal fade" role="dialog">
+                                    <div class="modal-dialog modal-lg">
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header mobilecolor" style="padding: 0 12px; background: #198686">
+                                                <h3 id="lbldeptname" style="margin: 8px auto; font-size: 15px; text-align: center; color: #fff"></h3>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+                                                        <p id="lblmedialink" style="text-align: center; color: #000; font-size: 14px; font-weight: bold;"></p>
+                                                    </div>
+                                                    <br>
+                                                    <div id="divcontent">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="modal-footer" style="text-align:center">
+                                                <button class="btn btn-danger btn-xs" data-dismiss="modal">Close</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <script type="text/javascript">
+                                    function getWhatweTreat(elem) {
+                                        var treat = {};
+                                        var autoid = $(elem).data('autoid');
+                                        var deptid = $(elem).data('deptid');
+                                        var medialink = $(elem).data('medialink');
+                                        treat.autoid = autoid;
+                                        treat.deptid = deptid;
+                                        treat.medialink = medialink;
+                                        $.ajax({
+                                            type: "POST",
+                                            contentType: "application/json; charset=utf-8",
+                                            url: "WhatWeTreat.aspx/GetWhatWeTreat",
+                                            data: '{objdata: ' + JSON.stringify(treat) + '}',
+                                            dataType: "json",
+                                            success: function (response) {
+                                                debugger;
+                                                var r = JSON.parse(response.d);
+                                                if (r.Table.length > 0) {
+                                                    var htmlcontent = "";
+                                                    $("#divcontent").empty();
+                                                    $("#lbldeptname").text(r.Table[0].dept_name);
+                                                    $("#lblmedialink").text(r.Table[0].MediaLink);
+                                                    for (i = 0; i < r.Table.length; i++) {
+                                                        if (r.Table[0].Description != "") {
+                                                            if (r.Table[0].ImgPosition == "Top") {
+                                                                if (r.Table[0].ImgUrl != "") {
+                                                                    htmlcontent += '<img src= ../' + r.Table[i].ImgUrl + ' /> <br />';
+                                                                    htmlcontent += '<p style="font-size:14px">' + r.Table[0].Description + '</p> <br />';
+                                                                }
+                                                            }
+                                                            else {
+                                                                htmlcontent += '<p style="font-size:14px">' + r.Table[0].Description + '</p>';
+                                                                if (r.Table[0].ImgUrl != "") {
+                                                                    htmlcontent += '<img src= ../' + r.Table[0].ImgUrl + ' /> <br />';
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+
+                                                    $("#divcontent").append(htmlcontent);
+
+                                                }
+                                            },
+                                            error: function (response) {
+                                                alert("Error while Getting Media");
+                                            }
+                                        });
+                                    }
+                                </script>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+

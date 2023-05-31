@@ -1,0 +1,273 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">	
+	<title>Chandan Healthcare Ltd.</title>
+	<!-- Meta Tags -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="Chandan Healthcare Ltd." />
+	<meta name="keywords" content="medical, doctor, health" />
+	<meta name="author" content="YokoTheme" />
+	<!-- Apple Touch Icons -->
+	<link href="images/apple-touch-icon.png" rel="apple-touch-icon" />
+	<link href="images/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72" />
+	<link href="images/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114" />
+	<link href="images/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144" />
+	<link href="images/favicon.png" rel="shortcut icon" type="image/png" />
+	<link rel="stylesheet" href="chandanGateway/css/bootstrap.min.css" />
+	<link href="chandanGateway/css/bootstrap-theme.min.css" rel="stylesheet" />
+	<script type="text/javascript">document.write('<link rel="stylesheet" href="chandanGateway/css/style.css?v=' + Date.now() + '" />');</script>
+	<link rel="stylesheet" href="chandanGateway/css/responsive.css" />
+	<style>
+		.respons {
+			float: left;
+			margin-right: 15px;
+			margin-bottom: 10px;
+		}
+		.chair{
+			font-size: 12px;
+			font-weight: 500;
+			color: #ff1108;
+			font-style:italic;
+			display: block;
+			margin-bottom: 0px;
+		}
+
+		.chairmanadd {
+			padding: 15px;
+			border-radius: 20px 0;
+			font-size: 15px;
+			color: #fff;
+			font-weight: 500;
+			text-align: center;
+			background: #085b95;
+		}
+		.login a {
+			color: #fff;
+		}		
+	</style>
+
+</head>
+<body class="bgbody" style="margin-top: 5px;">
+	<div class="container boxs">
+		<div class="page-wrapper">
+			<!-- Top Bar Start -->
+			<div class="top-bar" id="unresprow">
+				<div class="row">
+					<div class="col-md-3 col-xs-12">
+						<div class="logo">
+							<img src="chandanGateway/ChandanLogo.png" width="200" height="70" />
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-12">
+						<div class="logotext">CHANDAN GROUP OF COMPANIES</div>
+						<div class="toll-free"><i class="fa fa-phone"></i>&nbsp;<span>Toll-free Number</span><a class="blink" id="tel-contact" href="tel:1800-419-0002">1800-419-0002</a></div>
+					</div>
+					<div class="col-md-3 col-xs-12 email">
+						<i class="fa fa-envelope-o">&nbsp;care@chandan.co.in</i>
+						<i class="fa fa-phone-square">&nbsp;0522-6666666</i>
+					</div>
+					<div class="col-md-2 col-xs-12 login" style="padding-top: 10px;">
+						<div>
+							<a href="../healthcard/card_login.aspx" title="Healthcard Members" target="_blank"><i class="fa fa-sign-in"></i>&nbsp;&nbsp;Healthcard Members</a>
+						</div>						
+						<div>
+							<a href="busi_default.aspx" title="Bussiness Associate" target="_blank"><i class="fa fa-sign-in"></i>&nbsp;&nbsp;Business Associate&nbsp;&nbsp;&nbsp;</a>
+						</div>
+						<div>
+							<a href="report_download.aspx?prm=" title="Patients Reports" target="_blank"><i class="fa fa-download"></i>&nbsp;&nbsp;Download Reports&nbsp;&nbsp;&nbsp;&nbsp;</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="mydiv" style="display:none">
+				<img src="images/Loading.gif" class="ajax-loader" alt="loading" />
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="second">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="row m-t-25">
+									<div class="col-md-12">
+										<div class="panel panel-primary" style="max-height: 600px;">
+											<div class="panel-heading"><span class="glyphicon glyphicon-user"></span><b>From the Desk of Chairman</b></div>
+											<div class="panel-body">
+												<div class="row">
+													<div class="col-xs-12">
+														<img src="../chandanGateway/images/Dr. Amar Singh.JPG" class="img-responsive respons" style="height: 200px; width: auto;" />													
+														<h3>Dr. Amar Singh </h3>
+														<span class="chair">(Chairman & Managing Director)</span>
+														It gives me immense pleasure to share the highlights of the Chandan group crossing new boundaries and scaling greater heights. I am pleased to introduce ourselves as one of the most diversified healthcare group in the field of Diagnostic, Retail Pharmacy, Hospital and Medical Educational Institution.
+														<p>Chandan is proud to serve over 2.5 million patients every year. Chandan has already served more than 30 Million patients since its inception.</p>
+													</div>
+													<div class="col-xs-12">
+														<p><a href="#" data-target="#modalMore" data-toggle="modal">More.</a></p>
+													</div>
+												</div>											
+											</div>
+											<div class="panel-footer text-primary"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="row m-t-10">
+									<!--- Boxes de Acoes -->
+									<div class="col-xs-12 col-sm-12 col-lg-12">
+										<div class="box">
+											<div class="icons">
+												<div class="image"><i class="icon-i-laboratory"></i></div>
+												<div class="infoo">
+													<h3 class="titles">Chandan Healthcare Ltd.</h3>
+													<p>
+														The diagnostic centres work round the clock and provide world class diagnostic services.
+													</p>
+													<div class="more">
+														<a href="http://chandandiagnostic.com/" target="_blank" title="ChandanDiagnostic"><i class="fa fa-globe"></i>&nbsp;&nbsp;Website</a>
+													</div>
+												</div>
+											</div>
+											<div class="space"></div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-12 col-sm-12 col-lg-12">
+										<div class="box">
+											<div class="icons">
+												<div class="image"><i class="fa fa-medkit"></i></div>
+												<div class="infoo">
+													<h3 class="titles">Chandan Pharmacy Ltd.</h3>
+													<p>
+														Chandan Pharmacy is one of the most trusted retail chains of pharmacy in India.
+													</p>
+													<div class="more">
+														<a href="http://chandanpharmacy.com/" target="_blank" title="ChandanPharmacy">
+															<i class="fa fa-globe"></i>&nbsp;&nbsp;Website
+														</a>
+													</div>
+												</div>
+											</div>
+											<div class="space"></div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-12 col-sm-12 col-lg-12">
+										<div class="box">
+											<div class="icons">
+												<div class="image"><i class="fa fa-ambulance"></i></div>
+												<div class="infoo">
+													<h3 class="titles">Chandan Hospital Ltd.</h3>
+													<p>Chandan has redefined the Healthcare Services in Lucknow through its 200 bedded Multi and Super-Speciality Hospital at Lucknow.</p>
+													<div class="more">
+														<a href="https://www.chandanhospital.in/" target="_blank" title="ChandanHospital">
+															<i class="fa fa-globe"></i>&nbsp;&nbsp;Website
+														</a>
+													</div>
+												</div>
+											</div>
+											<div class="space"></div>
+										</div>
+									</div>
+									<!-- /Boxes de Acoes -->
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="row m-t-25">
+									<div class="col-md-12">
+										<div class="panel panel-primary">
+											<div class="panel-heading"><span class="glyphicon glyphicon-list-alt"></span><b>News</b></div>
+											<div class="panel-body" style="min-height: 520px;">
+												<div class="row">
+													<div class="col-xs-12">
+														<div id="divnews">
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="panel-footer"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row m-t-10">
+				<div class="col-md-12 footer">
+					<div class=" bg-white-dark">
+						Copyright @ 2018<a href="http://chandan.co.in/" target="_blank">Chandan Healthcare Ltd.</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--- Modal --->
+	<div class="modal fade" id="mdlnews" role="dialog">
+		<div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header panel-bg" style="background: #E21624;">
+					<button type="button" class="close" style="color: #fff; opacity: 2.2;" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title" id="lnlheading" style="color: #fff;"></h4>
+				</div>
+				<div class="modal-body">
+					<div class="scrollings" id="divcontentnews">
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal" tabindex="-1" id="modalMore" role="dialog">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header" style="background:#f69149;text-align:center;padding:10px;">
+					<h5 class="title" style="font-family:Times New Roman,Times,serif;font-weight:bold;font-size:20px;color:white;">From the Desk of Chairman</h5>
+					<button type="button" class="close" data-dismiss="modal" style="margin-top:-32px;">&times;</button>
+				</div>
+				<div class="modal-body" style="height:500px;overflow:auto;">
+					<p><b>Chandan group is consisting of-</b></p>
+					<p>
+						<b>Chandan Healthcare Limited-</b>A Diagnostic company of Chandan group deals with the chain of Diagnostic Centres in the name of Chandan Diagnostic Centre in Uttar Pradesh and Uttarakhand. These centres are providing complete diagnostic services under one roof including Radiological, Pathological, Cardiac, Respiratory, Gastro and Neurological facilities.
+					</p>
+					<p>We are proud to have 10 NABL Accreditations at various locations in Uttar Pradesh and Uttarakhand.</p>
+					<p>The company has established a central referral lab, Chandan Specialty Lab at Biotechnology Park, Lucknow, which is the first of its kind in Uttar Pradesh. The laboratory is a combination of state-of-the-art equipment, global best practices and an extensive intellectual capital and will make Chandan a front-runner in the area of pathology lab services. It is a central referral lab of the company and caters the northern part of India for special tests through its referral centres.</p>
+					<p>
+						<b>Chandan Pharmacy Limited-</b>A wholesale and retail Pharmaceutical Company of Chandan group deals with wholesale distribution of medicines to its retail pharmacy and Hospital and the chain of retail outlets in the name of Chandan Pharmacy in Uttar Pradesh  Uttarakhand and Delhi.
+					</p>
+					<p>
+						<b>Chandan Hospital Limited-</b>300 bedded Multi-Super-specialty Hospital at Lucknow started on 1st.October,2018 is one of the top three hospitals in the region to serve the population of Uttar Pradesh. Chandan Hospital is serving the patients through all 40 faculties under one roof.
+					</p>
+					<p>
+						<b>Chandan Institute of Medical Sciences Limited-</b>A medical Educational Institute,1000 bedded Multi-Super-specialty Teaching Hospital and Medical College at Lucknow is starting soon. 11 acre land for the project has been acquired and construction is started. The hospital is proposed to start within two years and it will be followed by Medical College in the same premises.
+					</p>
+					<p>Chandan has achieved several milestones during the year and has become one of the fastest growing healthcare service provider in Northern India.</p>
+					<p>Chandan has decided to start another 300 bedded Multi-Superspecialty Hospital at Haldwani(Uttarakhand) in next two years.</p>
+					<p>Our unique business model, a combination of Diagnostic services and Retail Pharmacy at the same premises will remain the focus area in the near future.</p>
+					<p>The strict quality control ensures a high level of efficiency in all the segments of Chandan Group.</p>
+					<p>Our Healthcare industry is growing at a rate of 15% annually, and we have achieved a commendable growth of more than 20% annually. The industry needs a minimum of 25% growth to meet the healthcare requirements of our country and fill the prevailing gap in healthcare services. Our expansion plans in the Hospitals, Pharmacy and Diagnostic services are bound to contribute to the healthcare system.</p>
+					<p>The real strength of the company lies in its people as they are the most valuable asset we have. My belief in our people, their performance, integrity and a strong system of values, standards and quality will make Chandan as one of the most admired groups in the healthcare industry.</p>
+					<p>We always welcome guidance from the team of Doctors to give best services to our patients.</p>
+					<p>I would like to express my gratitude to all our Doctors, Customers, Suppliers, Bankers, Employees and Shareholders, who have reposed their trust in us and given us their constant support.</p>
+				</div>				
+			</div>
+		</div>
+	</div>
+	<!--- Modal -->
+	<script src="chandanGateway/js/jquery-2.2.4.min.js"></script>
+	<script src="chandanGateway/js/bootstrap.min.js"></script>
+	<script src="chandanGateway/js/custom.js"></script>
+	<script src="chandanGateway/js/jquery.bootstrap.newsbox.min.js"></script>
+	<script src="chandanGateway/js/NewsJs.js"></script>
+	<script src="chandanGateway/js/chating.js"></script>
+	<script type="text/javascript">document.write("<script type='text/javascript' src='chandanGateway/js/MyJs/index.js?v=" + Date.now() + "'><\/script>");</script>
+</body>
+</html>

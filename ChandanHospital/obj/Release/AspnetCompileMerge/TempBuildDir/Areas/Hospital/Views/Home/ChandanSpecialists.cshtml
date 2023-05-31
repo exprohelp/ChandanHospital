@@ -1,0 +1,128 @@
+﻿
+@{
+	ViewBag.Title = "Best Neurologist in Lucknow | Best Nephrology Hospital in Lucknow";
+	Layout = "~/Views/Shared/_layout.cshtml";
+}
+@section metatags{
+	<meta name="keywords" content="chandan hospital, Best Hospital in Lucknow,multispeciality hospitals in lucknow, best diagnostic centre in lucknow." />
+	<meta name="description" content="chandan hospital, Best Neurologist Hospital in Lucknow,multispeciality hospitals in lucknow, best Nephrology hospital in lucknow" />
+}
+<style>
+	.form-control {
+		border-radius: 4px;
+		box-shadow: none;
+		height: 45px;
+		border: 1px solid #c3bfbf;
+		margin-bottom: 10px;
+		/* box-shadow: inset 3px 3px 0px #efefef; */
+	}
+</style>
+<script src="~/Areas/Hospital/JsModule/OurSpecialists.js"></script>
+<link href="~/Content/css/Department.css" rel="stylesheet" />
+<section class="inner-header divider parallax layer-overlay overlay-white-5" style="background-image: url(&quot;/Content/images/bg/b1.jpg&quot;), url(&quot;../Content/images/bg/b1.jpg&quot;); background-position: 50% 63px;">
+	<div class="container pt-40 pb-20">
+		<!-- Section Content -->
+		<div class="section-content">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h2 class="title" id="hPageHeading">Our Specialists</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<div class="col-md-12 text-center">
+			<input type="text" id="txtSearchSpecialist" class="form-control" placeholder="Search Doctors..." />
+		</div>
+		<br>
+		<div id="OurSpecialists">
+		</div>
+	</div>
+	<div id="modalRegister" class="modal fade" role="dialog">
+		<div class="modal-dialog modal-lg">
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header mobilecolor" style="padding: 0 12px; background: #198686">
+					<h3 id="lbldeptname" style="margin: 8px auto; font-size: 15px; text-align: center; color: #fff"></h3>
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-lg-12">
+							<p id="lblmedialink" style="text-align: center; color: #000; font-size: 14px; font-weight: bold;"></p>
+						</div>
+						<br>
+						<div id="divcontent">
+						</div>
+					</div>
+				</div>
+
+				<div class="modal-footer" style="text-align:center">
+					<button class="btn btn-danger btn-xs" data-dismiss="modal">Close</button>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<script type="text/javascript">
+		function getWhatweTreat(elem) {
+			var treat = {};
+			var autoid = $(elem).data('autoid');
+			var deptid = $(elem).data('deptid');
+			var medialink = $(elem).data('medialink');
+			treat.autoid = autoid;
+			treat.deptid = deptid;
+			treat.medialink = medialink;
+			$.ajax({
+				type: "POST",
+				contentType: "application/json; charset=utf-8",
+				url: "WhatWeTreat.aspx/GetWhatWeTreat",
+				data: '{objdata: ' + JSON.stringify(treat) + '}',
+				dataType: "json",
+				success: function (response) {
+					debugger;
+					var r = JSON.parse(response.d);
+					if (r.Table.length > 0) {
+						var htmlcontent = "";
+						$("#divcontent").empty();
+						$("#lbldeptname").text(r.Table[0].dept_name);
+						$("#lblmedialink").text(r.Table[0].MediaLink);
+						for (i = 0; i < r.Table.length; i++) {
+							if (r.Table[0].Description != "") {
+								if (r.Table[0].ImgPosition == "Top") {
+									if (r.Table[0].ImgUrl != "") {
+										htmlcontent += '<img src= ../' + r.Table[i].ImgUrl + ' /> <br />';
+										htmlcontent += '<p style="font-size:14px">' + r.Table[0].Description + '</p> <br />';
+									}
+								}
+								else {
+									htmlcontent += '<p style="font-size:14px">' + r.Table[0].Description + '</p>';
+									if (r.Table[0].ImgUrl != "") {
+										htmlcontent += '<img src= ../' + r.Table[0].ImgUrl + ' /> <br />';
+									}
+								}
+							}
+						}
+
+						$("#divcontent").append(htmlcontent);
+
+					}
+				},
+				error: function (response) {
+					alert("Error while Getting Media");
+				}
+			});
+		}
+	</script>
+</section>
+
+
+
+
+
+
+
+

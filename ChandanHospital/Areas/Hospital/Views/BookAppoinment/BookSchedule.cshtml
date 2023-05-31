@@ -1,0 +1,185 @@
+﻿
+@{
+    ViewBag.Title = "BookSchedule";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+<style>
+    .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+        padding: 3px !important;
+        text-align: left;
+        font-size: 12px !important;
+    }
+
+    .form-control {
+        height: 22px !important;
+        font-size: 12px !important;
+        padding: 0 10px !important
+    }
+
+    .btn {
+        font-size: 12px;
+        padding: 5px 5px !important;
+    }
+</style>
+<script src="~/Areas/Hospital/JsModule/Appoinment/BookSchedule.js"></script>
+
+<div>
+    <br>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="container">
+                <div class="section-content">
+                    <div class="row">
+                        <div class="col-md-6 table-responsive">
+                            <table class="table table-bordered" id="tblDoctorDetail">
+                                <tbody>
+                                    <tr>
+                                        <th colspan="2">Appointment Details</th>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left"><b>Hospital Name:</b></td>
+                                        <td id="txtHospital"></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left">
+                                            <b>Department:</b>
+                                        </td>
+                                        <td id="txtDepartment"></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left">
+                                            <b>Doctors:</b>
+                                        </td>
+                                        <td style="display:none;" id="txtDotorId"></td>
+                                        <td style="display:none;" id="txtStartTime"></td>
+                                        <td id="txtDotors"></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left"><b>Appointment Time</b></td>
+                                        <td id="txtAppoinmentTime"></td>
+                                        @*<input type="hidden" name="ctl00$ContentPlaceHolder1$lblTo" id="ContentPlaceHolder1_lblTo" value="10:20:00">*@
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-4 table-responsive">
+                            <table class="table table-bordered">
+                                <tbody>
+                                    <tr>
+                                        <td colspan="2" style="color: red; font-weight: bold">Please enter Patient Id If Know</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="text" id="txtUhId" class="form-control">
+                                        </td>
+                                        <td>
+                                            <input type="submit" value="GET" onclick="PatientAppoinmentById(AppId)" id="btnGetPInfo" class="btn btn-warning">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="divwithoutUHID" class="col-md-4 table-responsive">
+                            <table class="table table-bordered" id="tblPatientDetail">
+                                <tbody>
+                                    <tr>
+                                        <td colspan="4"><b>Patient Details</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left">
+                                            <b>Title:</b>
+                                        </td>
+                                        <td colspan="4">
+                                            <select id="ddlTitleWOHID" class="form-control">
+                                                <option value="0">--Please Select--</option>
+                                                <option value="Mr.">Mr.</option>
+                                                <option value="Mrs.">Mrs.</option>
+                                                <option value="Miss.">Miss.</option>
+                                                <option value="Master.">Master.</option>
+                                                <option value="Baby.">Baby.</option>
+                                                <option value="B/O.">B/O.</option>
+                                                <option value="Dr.">Dr.</option>
+                                                <option value="Prof.">Prof.</option>
+                                                <option value="Madam.">Madam.</option>
+                                                <option value="Selvi.">Selvi.</option>
+                                                <option value="Selvan.">Selvan.</option>
+                                                <option value="Sister.">Sister.</option>
+                                                <option value="Mohd.">Mohd.</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left">
+                                            <b>First Name:</b>
+                                        </td>
+                                        <td colspan="4">
+                                            <input type="text" id="txtFirstName" class="form-control">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left">
+                                            <b>Last Name:</b>
+                                        </td>
+                                        <td colspan="4">
+                                            <input type="text" id="txtLastName" class="form-control">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left">
+                                            <b>Age:</b>
+                                        </td>
+                                        <td>
+                                            <input type="text" id="txtAge" class="form-control" style="width:45px;">
+                                        </td>
+                                        <td style="text-align: left">
+                                            <b>Gender:</b>
+                                        </td>
+                                        <td>
+                                            <select id="ddlGender" class="form-control" style="width:85px;">
+                                                <option selected="selected" value="0">-Select-</option>
+                                                <option value="Male">Male</option>
+                                                <option value="Female">Female</option>
+                                                <option value="Transgender">Transgender</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td style="text-align: left">
+                                            <b>Phone:</b>
+                                        </td>
+                                        <td colspan="4">
+                                            <input type="text" id="txtPhone" class="form-control">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left">
+                                            <b>Address:</b>
+                                        </td>
+                                        <td colspan="4">
+                                            <input type="text" id="txtAddress" class="form-control">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align:left">
+                                            <b>Disease Description:</b>
+                                        </td>
+                                        <td colspan="4">
+                                            <input type="text" id="txtDiseaseDescription" class="form-control">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4">
+                                            <input type="submit" value="Book Appointment" onclick="BookAppointment()" id="btnBookAppoinment" class="btn btn-success">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,199 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title></title>
+    <script src="~/Content/js/jquery-2.2.4.min.js"></script>
+    <script src="~/JsModule/global.js"></script>
+    <link href="~/Content/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Areas/Hospital/JsModule/mobdept.js"></script>
+    <style type="text/css">
+        .btnborder {
+            border-width: 0.01rem;
+            border-color: #35a6e8;
+            color: #000;
+            margin-top: 9px;
+            line-height: 0.5;
+            margin-left: 4px;
+        }
+
+        .panel-primary .panel-heading {
+            padding: 10px 5px;
+            background-color: #35a6e8
+        }
+
+        hr {
+            margin-top: 2px !important;
+            margin-bottom: 2px !important;
+            border: 1px solid #0ab1b9 !important;
+        }
+
+        p {
+            margin: 0 0 0 0 !important;
+        }
+        h4, h5, h6, .h4, .h5, h6 {
+            margin-top: 0 !important;
+            margin-bottom: 2px !important;
+            font-size: 16px;
+            color: #fff;
+        }
+
+        h5, h6, .h5, h6 {
+            color: #000;
+        }
+
+        img {
+            margin-bottom: 5px !important;
+        }
+
+        a {
+            color: #1588dc;
+            padding: 10px;
+        }
+
+        p {
+            color: #3c3b3b;
+            font-size: 12px
+        }
+
+        .btn-group-xs > .btn, .btn-xs {
+            margin: -18px 0 0 0;
+        }
+
+        .text-black {
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">       
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h4>ABOUT DEPARTMENT</h4>
+                        </div>
+                        <div class="panel-body">
+                            <h4 id="dept_name" class="text-black"></h4>
+                            <p id="about_department"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h4>DOCTORS</h4>
+                        </div>
+                        <div class="panel-body" id="DoctorsDetails">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h4>WHAT WE TREAT</h4>
+                        </div>
+                        <div class="panel-body" id="WhatWeTreatDetails">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h4>Media</h4>
+                        </div>
+                        <div class="panel-body" id="MediaDetails">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>        
+            <div id="modalRegister" class="modal fade" role="dialog" style="display: none;">
+                <div class="modal-dialog modal-lg">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header mobilecolor" style="padding: 0 12px; background: #198686">
+                            <h3 id="lbldeptname" style="margin: 8px auto; font-size: 15px; text-align: center; color: #fff">Chandan Institute of Bone and Joint </h3>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <p id="lblmedialink" style="text-align: center; color: #000; font-size: 14px; font-weight: bold;">Degenerative Disc Disease</p>
+                                </div>
+                                <br>
+                                <div id="divcontent">
+                                    <p style="font-size:14px"></p><h3><strong>Degenerative Disc Disease (DDD)</strong> used to&nbsp;happens due to aging, but nowadays it can also happen to people as young as 20-21 years old. In DDD, your discs become more rigid and stiff due to decrease in water attracting molecules in your disc. Surgery is the last option for treatment of the disease. Patient must consider regular check-ups and medication.</h3>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal-footer" style="text-align:center">
+                            <button class="btn btn-danger btn-xs" data-dismiss="modal">Close</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            @*<script type="text/javascript">
+                function getWhatweTreat(elem) {
+                    var treat = {};
+                    var autoid = $(elem).data('autoid');
+                    var deptid = $(elem).data('deptid');
+                    var medialink = $(elem).data('medialink');
+                    treat.autoid = autoid;
+                    treat.deptid = deptid;
+                    treat.medialink = medialink;
+                    $.ajax({
+                        type: "POST",
+                        contentType: "application/json; charset=utf-8",
+                        url: "WhatWeTreat.aspx/GetWhatWeTreat",
+                        data: '{objdata: ' + JSON.stringify(treat) + '}',
+                        dataType: "json",
+                        success: function (response) {
+                            debugger;
+                            var r = JSON.parse(response.d);
+                            if (r.Table.length > 0) {
+                                var htmlcontent = "";
+                                $("#divcontent").empty();
+                                $("#lbldeptname").text(r.Table[0].dept_name);
+                                $("#lblmedialink").text(r.Table[0].MediaLink);
+                                for (i = 0; i < r.Table.length; i++) {
+                                    if (r.Table[0].Description != "") {
+                                        if (r.Table[0].ImgPosition == "Top") {
+                                            if (r.Table[0].ImgUrl != "") {
+                                                htmlcontent += '<img src= ../' + r.Table[i].ImgUrl + ' /> <br />';
+                                                htmlcontent += '<p style="font-size:14px">' + r.Table[0].Description + '</p> <br />';
+                                            }
+                                        }
+                                        else {
+                                            htmlcontent += '<p style="font-size:14px">' + r.Table[0].Description + '</p>';
+                                            if (r.Table[0].ImgUrl != "") {
+                                                htmlcontent += '<img src= ../' + r.Table[0].ImgUrl + ' /> <br />';
+                                            }
+                                        }
+                                    }
+                                }
+
+                                $("#divcontent").append(htmlcontent);
+
+                            }
+                        },
+                        error: function (response) {
+                            alert("Error while Getting Media");
+                        }
+                    });
+                }
+            </script>*@      
+    </div>
+</body>
+</html>

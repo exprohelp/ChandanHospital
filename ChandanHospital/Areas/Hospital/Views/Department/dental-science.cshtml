@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewBag.Title = "DentalScience";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+<script>
+    $(document).ready(function () {
+        sessionStorage.setItem('DeptId', 'WD7')
+    });
+</script>
+@Html.Partial("DepartmentInfo")

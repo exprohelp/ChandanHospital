@@ -1,0 +1,197 @@
+﻿
+@{
+    Layout = null;
+}
+<style>
+    .login {
+        padding: 1px 45px;
+        width: auto;
+        background: rgba(255, 255, 255, 0.98);
+        background-clip: padding-box;
+        border: 1px solid #FFF;
+        border-radius: 20px;
+    }
+    box-shadow: inset 0 1px rgb(255 255 255 / 30%), inset 0 0 1px 1px rgb(255 255 255 / 10%), 0 2px 10px rgb(0 0 0 / 50%);
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    user agent stylesheet
+    div {
+        display: block;
+    }
+
+    body {
+        font: 12px/20px 'Lucida Grande', Verdana, sans-serif;
+    }
+
+    body {
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #333;
+        background-color: #fff;
+    }
+
+    html {
+        font-size: 10px;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+    }
+
+    html {
+        font-family: sans-serif;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+    }
+
+    :after, :before {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    :after, :before {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    user agent stylesheet
+    div {
+        display: block;
+    }
+
+    body {
+        font: 12px/20px 'Lucida Grande', Verdana, sans-serif;
+    }
+
+    body {
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #333;
+        background-color: #fff;
+    }
+
+    html {
+        font-size: 10px;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    :after, :before {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+</style>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <!-- Meta Tags -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="Chandan Health Centres, started by the Chandan group, are providing diagnostic services as well as have retail outlets for medicines in 9 states with 80 centres." />
+    <meta name="keywords" content="care, clinic, corporate, dental, dentist, doctor, Hosital" />
+    <meta name="author" content="Chandan Hospital [IT Section]" />
+    <!-- Page Title --->
+    <title>Chandan Hospital</title>
+    <!-- Favicon and Touch Icons -->
+    <link href="~/Content/images/favicon.png"rel="shortcut icon" type="image/png" />
+
+    @*<link href="../Content/images/favicon.png" rel="shortcut icon" type="image/png" />*@
+    <link href="..~/Content/images/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link href="../Content/images/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72" />
+    <link href="../Content/images/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114" />
+    <link href="../Content/images/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144" />
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="font/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/LoginStyle.css" rel="stylesheet" />
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="plugins/jQuery/jquery-2.2.3.min.js"></script>
+    <script src="plugins/jQueryUI/jquery-ui.js"></script>
+    <script>document.write("<script type='text/javascript' src='../js/MyScripts/Login.js?v=" + Date.now() + "'><\/script>");</script>
+
+</head>
+<body style="background: #1FA9B0">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-sm-offset-3 col-md-offset-4 col-lg-offset-4">
+                <div class="form-group"></div>
+                <div class="form-group">
+                    <div class="row" style="text-align: center">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <a href="../index.html" style="color: #fafbfb; cursor: pointer; text-decoration: none;">
+                                <img src="../Content/images/favicon.png" />
+                                <h3 style="margin-top: 8px;">Chandan Hospital Admin</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group login">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <h3 style="text-align: center"><i class="fa fa-lock"></i>&nbsp;Login</h3>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <label style="color: #8a8a8a; font-size: 15px;">User Name</label>
+                                    <input type="text" id="txtUserName" style="padding: 15px;" placeholder="User Name" maxlength="98" class="login-input" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <label style="color: #8a8a8a; font-size: 15px;">Password</label>
+                                    <input type="password" id="txtPassword" style="padding: 15px;" placeholder="Password" maxlength="18" class="login-input" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                    <a id="btnSignIn" href="javascript:void(0)" class="form-control btn btn-success" onclick="SignIn();"><i class="fa fa-sign-in"></i>&nbsp;Sign In</a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 hidden-sm hidden-md hidden-lg">&nbsp;</div>
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                    <input type="button" id="btnClear" class="form-control btn btn-danger" value="Clear" onclick="Clear();" />
+                                </div>
+                            </div>
+                            <p class="login-help">
+                                <a href="#">Forgot Password?</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group" style="margin: 0 auto; text-align: center">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top: 20px; color: white;">
+                            &copy;<% = DateTime.Now.Year %> Chandan Hospital limited.
+                        </div>
+                    </div>
+                </div>
+                <%-- <div style="margin: 0 auto; text-align: center">
+                    <div style="padding-top: 40px; color: white;">
+                    </div>
+                </div>--%>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

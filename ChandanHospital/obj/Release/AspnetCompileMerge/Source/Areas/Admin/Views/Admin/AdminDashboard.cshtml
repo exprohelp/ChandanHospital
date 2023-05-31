@@ -1,0 +1,200 @@
+﻿
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_layout</title>
+
+    <head runat="server">
+        <!-- Meta Tags -->
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="Expires" content="-1">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <meta name="description" content="Chandan Health Centres, started by the Chandan group, are providing diagnostic services as well as have retail outlets for medicines in 9 states with 80 centres." />
+        <meta name="keywords" content="care, clinic, corporate, dental, dentist, doctor, Hosital" />
+        <meta name="author" content="Chandan Hospital [IT Section]" />
+        <!-- Page Title --->
+        <title>Chandan Hospital</title>
+        <!-- Favicon and Touch Icons --->
+        <link href="~/Content/images/favicon.png" " rel="shortcut icon" type="image/png" />
+        <link href="..~/Content/images/apple-touch-icon.png" rel="apple-touch-icon" />
+        <link href="..~/Content/images/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72" />
+        <link href="..~/Content/images/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114" />
+        <link href="~/Content/images/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144" />
+        <!-- My CSS -->
+        <link href="css/Loader.css" rel="stylesheet" />
+        <!-- Bootstrap 3.3.6 -->
+        <link href="/AdminContent/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+        <!-- Font Awesome -->
+        <link href="/AdminContent/font/css/font-awesome.css" rel="stylesheet" />
+        <!-- Ionicons -->
+        <link href="/AdminContent/bootstrap/css/ionicons.min.css" rel="stylesheet" />
+        <!-- Theme style -->
+        <link href="/AdminContent/dist/css/AdminLTE.css" rel="stylesheet" />
+        <!-- AdminLTE Skins. Choose a skin from the css/skins
+          folder instead of downloading all of them to reduce the load. -->
+        <link href="/AdminContent/dist/css/skins/_all-skins.min.css" rel="stylesheet"/>
+        <!-- iCheck -->
+        <link href="/AdminContent/plugins/iCheck/flat/blue.css" rel="stylesheet" />
+        <!-- jvectormap -->
+        <link href="/AdminContent/plugins/jvectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" />
+        <!-- bootstrap wysihtml5 - text editor -->
+        <link href="/AdminContent/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" rel="stylesheet" />
+        <link href="plugins/datatables/jquery.dataTables.min.css" rel="stylesheet" />
+        <script src="/AdminContent/bootstrap/js/jquery-2.2.4.min.js"></script>
+        <script src="/AdminContent/plugins/datatables/jquery.dataTables.min.js"></script>
+        <script src="/AdminContent/dist/js/jquery-ui.min.js"></script>
+        <script src="/AdminContent/bootstrap/js/bootstrap.min.js"></script>
+        <script src="/AdminContent/dist/js/raphael-min.js"></script>
+        <script src="/AdminContent/plugins/sparkline/jquery.sparkline.js"></script>
+        <script src="/AdminContent/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+        <script src="/AdminContent/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+        <script src="/AdminContent/plugins/knob/jquery.knob.js"></script>
+        <script src="/AdminContent/dist/js/moment.min.js"></script>
+        <script src="/AdminContent/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+        <script src="/AdminContent/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+        <script src="/AdminContent/plugins/fastclick/fastclick.js"></script>
+        <script src="/AdminContent/dist/js/app.min.js"></script>
+        <script src="/AdminContent/dist/js/demo.js"></script>
+        <script type="text/javascript">
+        $(function () {
+            $('.treeview-menu li').click(function () {
+                $(this).addClass('active');
+            });
+        });
+        </script>
+        <script type="text/javascript">
+        function AdminLogout() {
+
+            $.ajax({
+                type: "POST",
+                contentType: "application/json; charset=utf-8",
+                url: "Login.aspx/Logout",
+                data: "{}",
+                dataType: "json",
+                success: function () {
+                    window.location.href = "Login.aspx";
+                },
+                error: function (xhr) {
+                    alert("readyState: " + xhr.readyState + "\nstatus: " + xhr.status);
+                    alert("responseText: " + xhr.responseText);
+                }
+            });
+        }
+        var getQueryString = function (field, url) {
+            var href = url ? url : window.location.href;
+            var reg = new RegExp('[?&]' + field + '=([^&#]*)', 'i');
+            var string = reg.exec(href);
+            return string ? string[1] : null;
+        }
+        </script>
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+    </head>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="wrapper">
+            <header class="main-header">
+                <a href="../index.html" class="logo">
+                    <span class="logo-mini"><b>C</b>HL</span>
+                    <span class="logo-lg">
+                        <img src="/AdminContent/images/logo-wide-white.png" class="img-responsive" style="width:148px;margin-left: 23px; margin-top: 5px;" />
+                    </span>
+                </a>
+                <nav class="navbar navbar-static-top">
+                    <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                        <span class="sr-only"></span>
+                    </a>
+                    <div class="navbar-custom-menu">
+                        <ul class="nav navbar-nav" style="padding-right: 10px;">
+                            <li class="dropdown user user-menu">
+                                <a style="font-size: 21px;" href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <span>Admin <span class="caret"></span></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <!-- Menu Footer-->
+                                    <li class="user-footer">
+                                        <div style="float: none; display: inline-grid;">
+
+                                            <a style="width: 140px" href="#" onclick="AdminLogout()" class="btn btn-default btn-flat">Sign out</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+
+        </div>
+
+        <div class="main-content" id="mydivs">
+
+
+
+            <aside class="main-sidebar">
+                <div class="sidebar">
+                    <ul class="sidebar-menu">
+                        <li id="AdminDashboard">
+                            <a href="AdminDashboard.aspx">
+                                <i class="fa fa-dashboard"></i><span>Dashboard</span>
+                            </a>
+                        </li>
+                        <li id="AddDoctors" class="treeview">
+                            <a href="AddDoctors.aspx">
+                                <i class="fa fa-user"></i>
+                                <span>Create Doctors</span>
+                            </a>
+                        </li>
+                        <li id="UploadAdvertise" class="treeview">
+                            <a href="UploadAdvertise.aspx">
+                                <i class="fa fa-upload"></i>
+                                <span>Upload Advertise Image</span>
+                            </a>
+                        </li>
+                        <li id="mailToEmployee" class="treeview">
+                            <a href="mailToEmployee.aspx">
+                                <i class="fa fa-envelope"></i>
+                                <span>Mail to employee</span>
+                            </a>
+                        </li>
+                        <li class="treeview">
+                            <a href="https://chandandiagnostic.com/admin/login.html" target="_blank">
+                                <i class="fa fa-circle"></i>
+                                <span>Job Opportunities</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </aside>
+
+        </div>
+        <div class="content-wrapper">
+            <form id="form1" runat="server">
+                <div id="mydiv" class="loader" style="display: none">
+                    <img src="../images/loading7_blue.gif" width="70" height="70" class="ajax-loader" alt="loading" />
+                </div>
+
+                <div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </form>
+        </div>
+        <footer class="main-footer">
+            <div class="pull-right hidden-xs">
+            </div>
+            <strong>Copyright &copy; <% = DateTime.Now.Year %> Chandan Hospital limited.</strong>
+        </footer>
+
+    </div>
+</body>
+</html>
+
+

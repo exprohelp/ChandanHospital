@@ -1,0 +1,77 @@
+﻿
+@{
+                /**/
+
+                Layout = null;
+}
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script>document.write("<script type='text/javascript' src='../js/MyScripts/Login.js?v=" + Date.now() + "'><\/script>");</script>
+    <link href="~/AdminContent/css/LoginStyle.css" rel="stylesheet" />
+</head>
+<body style="background: #1FA9B0">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-sm-offset-3 col-md-offset-4 col-lg-offset-4">
+                <div class="form-group"></div>
+                <div class="form-group">
+                    <div class="row" style="text-align: center">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <a href="index.html" style="color: #fafbfb; cursor: pointer; text-decoration: none;">
+                                <img src="/Content/images/favicon.png" />
+                                <h3 style="margin-top: 8px;">Chandan Hospital Admin</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group login">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <h3 style="text-align: center"><i class="fa fa-lock"></i>&nbsp;Login</h3>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <label style="color: #8a8a8a; font-size: 15px;">User Name</label>
+                                    <input type="text" id="txtUserName" style="padding: 15px;" placeholder="User Name" maxlength="98" class="login-input" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <label style="color: #8a8a8a; font-size: 15px;">Password</label>
+                                    <input type="password" id="txtPassword" style="padding: 15px;" placeholder="Password" maxlength="18" class="login-input" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                    <a id="btnSignIn" href="javascript:void(0)" class="form-control btn btn-success" onclick="SignIn();"><i class="fa fa-sign-in"></i>&nbsp;Sign In</a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 hidden-sm hidden-md hidden-lg">&nbsp;</div>
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                    <input type="button" id="btnClear" class="form-control btn btn-danger" value="Clear" onclick="Clear();" />
+                                </div>
+                            </div>
+                            <p class="login-help">
+                                <a href="#">Forgot Password?</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group" style="margin: 0 auto; text-align: center">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top: 20px; color:white;">
+                            &copy;2021 Chandan Hospital limited.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

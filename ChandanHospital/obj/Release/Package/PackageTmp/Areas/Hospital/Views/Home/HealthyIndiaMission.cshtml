@@ -1,0 +1,400 @@
+﻿
+@{
+    ViewBag.Title = "Best Hospital in Lucknow | Best Cancer Hospital in Lucknow";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+@section metatags{
+    <meta name="keywords" content="Chandan is the Best hospital in Lucknow, Check out our department with speacialist team of doctors." />
+    <meta name="description" content="Chandan is the Best hospital in Lucknow, Check out our department with speacialist team of doctors. Best Cancer Hospital in Lucknow." />
+}
+<script src="~/Areas/Hospital/JsModule/HIM.js"></script>
+<style>
+    .packages {
+        min-height: 76px;
+        background: #f5f5f5;
+        padding: 1px;
+        border: 1px solid #ddd;
+        margin: 4px;
+    }
+
+        .packages button {
+            position: absolute;
+            font-size: 11px;
+            padding: 3px 14px;
+            bottom: 15px;
+            left: 28px;
+        }
+
+        .packages label.amount {
+            font-size: 15px !important;
+            position: absolute;
+            font-size: 11px;
+            padding: 3px 14px;
+            bottom: 5px;
+            right: 17px;
+            font-weight: bold;
+        }
+
+        .packages .packageName {
+            font-size: 12px;
+            font-weight: bold;
+            color: #1fa9b0;
+            text-align: center;
+        }
+
+    .packageInfo .col-md-3 {
+        width: 25%;
+        padding: 2px;
+    }
+
+    .packOuter {
+        border-radius: 5px;
+        border: 2px solid #ddd;
+        margin: 2px;
+    }
+   #listPackage {
+        list-style: disc;
+        padding: 10px;
+        font-size: 11px;
+        color: #585858;
+    }
+    #modelPackage .modal-body {       
+        border: 1px solid #dfdfdf;
+        margin: 5px;
+        max-height: 500px;
+        overflow: auto;   
+   }
+</style>
+<section class="inner-header divider parallax layer-overlay overlay-white-5" style="background-image: url(&quot;/Content/images/bg/b1.jpg&quot;), url(&quot;../Content/images/bg/b1.jpg&quot;); background-position: 50% 63px;">
+    <div class="container pt-40 pb-20">
+        <!-- Section Content -->
+        <div class="section-content">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="title" id="hPageHeading">Healthy India Mission (HIM)</h2>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div>
+    <section>
+        <div class="container">
+            <div class="section-content" id="print">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 pull-left flip">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="lead">We recognize the importance and need for preventive health care and for this purpose we have launched Healthy India Mission program. The Healthy India Mission program aims to preserve and promote good health, to prevent disease and disability and to facilitate early diagnosis and treatment of illness. Preventive Healthcare involves measures taken to identify and minimize risk factors for disease, improve the course of treatment of an existing disease and screening for early detection of disease Another aspect of Preventive Healthcare is the early identification of high-risk individuals prone to major life-threatening illnesses like heart disease and cancers. This helps in taking timely, precautionary lifestyle modification measures or treatment.</p>
+                                <div class="row packageInfo">
+                                </div>
+                                @*<div class="table-responsive">
+                                    <table class="table table-bordered table-striped">
+                                        <tbody>
+                                            <tr>
+                                                <th>
+                                                    <p>No. of Tests</p>
+                                                </th>
+                                                <th style="width: 10%;">
+                                                    <p>56 Tests</p>
+                                                </th>
+                                                <th style="width: 10%;">
+                                                    <p>82 Tests</p>
+                                                </th>
+                                                <th style="width: 10%;">
+                                                    <p>91 Tests</p>
+                                                </th>
+                                                <th>
+                                                    <p>104 Tests &amp; 7 Consultations</p>
+                                                </th>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">HEALTH CHECK-UP</td>
+                                                <td>HIM-1 (Chandan health check-up)</td>
+                                                <td>
+                                                    HIM-2
+                                                    (Master Health check-up)
+                                                </td>
+                                                <td>
+                                                    HIM-3
+                                                    (Comprehensive health check-up)
+                                                </td>
+                                                <td>HIM-4(Whole Body check-up)*</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">Complete Haemogram (22 Tests)</td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">Diabetes Check-up (Blood Glucose  Fasting , HbA1c)</td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">Thyroid profile(T3, T4 & TSH)</td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">Kidney Profile(Urea, Creatinine, Uric Acid, Na, K, BUN, BUN/Creatinine ratio) )</td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">Lipid Profile(Cholesterol, HDL, LDL, VLDL, Triglyceride, LDL/HDL ratio, Non-HDL Cholesterol, TC/ HDL Cholesterol)</td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">Liver Profile (Bilirubin Total, Bilirubin Direct, Bilirubin Indirect, A/G ratio, Albumin, Alkaline Phosphatase, Globulin, Protein, SGPT, SGOT)</td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td style="text-align: left">Gamma GT</td>
+                                                <td>&nbsp;</td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">Infectious Diseases (HBsAg, HCV)</td>
+                                                <td>&nbsp;</td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">Urine Examination(20 Tests)</td>
+                                                <td>&nbsp;</td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">Blood Pressure</td>
+                                                <td>&nbsp;</td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">ECG</td>
+                                                <td>&nbsp;</td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">X-Ray Chest</td>
+                                                <td>&nbsp;</td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">Iron Deficiency Anaemia (Ferritin, Iron, TIBC, Transferrin saturation%)</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">Vit-D</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">Vit-B12</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">Calcium</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">PSA for Prostrate (Male)</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">PAP Smear for cervical health (Female)</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">Ultrasound Whole Abdomen</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td><i class="fa fa-check"></i></td>
+                                                <td><i class="fa fa-check"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">Stool Examination(7 Tests)</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td><i class="fa fa-check"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">Mammography for Breast Check-up (Female)</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td><i class="fa fa-check"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">2-D Echo &amp; TMT for Cardiac Check-up</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td><i class="fa fa-check"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">PFT for Lung Check-up(Spirometry)</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td><i class="fa fa-check"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">Audiometry for Hearing Check-up(Audiogram)</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td><i class="fa fa-check"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">Bone Marrow Densitometer (BMD) for Bone Strength Check-up</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td><i class="fa fa-check"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">General Physical Check-up</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td><i class="fa fa-check"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">Diet advice by dietician</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td><i class="fa fa-check"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">Obstetrician &amp; Gynaecologist Check-up</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td><i class="fa fa-check"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">ENT for Ear, Nose &amp; Throat Check-up</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td><i class="fa fa-check"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">Eye Check-up</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td><i class="fa fa-check"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">Dental Check-up</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td><i class="fa fa-check"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">Final Expert Opinion By the Doctor</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td><i class="fa fa-check"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">MRP</td>
+                                                <td style="text-decoration: line-through;"><i class="fa fa-inr"></i>&nbsp;3300</td>
+                                                <td style="text-decoration: line-through;"><i class="fa fa-inr"></i>&nbsp;5500</td>
+                                                <td style="text-decoration: line-through;"><i class="fa fa-inr"></i>&nbsp;8500</td>
+                                                <td style="text-decoration: line-through;"><i class="fa fa-inr"></i>&nbsp;33000</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left">Offer Price(70% Discount)</td>
+                                                <td><i class="fa fa-inr"></i>&nbsp;990</td>
+                                                <td><i class="fa fa-inr"></i>&nbsp;1500</td>
+                                                <td><i class="fa fa-inr"></i>&nbsp;2550</td>
+                                                <td><i class="fa fa-inr"></i>&nbsp;9900</td>
+                                            </tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td>* Available in CHANDAN HOSPITAL only</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>*@
+                                @*<p class="lead"><strong>Note:</strong> The Complimentary Breakfast is given to the individuals who have opted for HIM4 profile.</p>*@
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modelPackage" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-sm">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header mobilecolor" style="padding: 0 12px; background: #198686">
+                        <button style="margin: 6px -3px;" class="btn btn-danger btn-xs pull-right" data-dismiss="modal">Close</button>
+                        <h3 id="lblPackage" style="margin: 8px auto; font-size: 11px; text-align: center; color: #fff">-</h3>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <ul id="listPackage"></ul>
+                            </div>                          
+                        </div>
+                    </div>                  
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

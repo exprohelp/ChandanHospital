@@ -1,0 +1,129 @@
+﻿
+@{
+	ViewBag.Title = "OnlineConsultation";
+	Layout = "~/Views/Shared/_layout.cshtml";
+}
+
+<script src="~/Areas/Hospital/JsModule/Appoinment/OnlineConsultation.js"></script>
+<style>
+	.Inactive {
+		pointer-events: none;
+		opacity: 0.5;
+	}
+
+	.form-control {
+		height: 35px;
+	}
+
+	#lblMsg {
+		text-align: center;
+		opacity: unset;
+	}
+
+	span.mendat {
+		color: red;
+	}
+</style>
+<section class="inner-header divider parallax layer-overlay overlay-white-5" style="background-image: url(&quot;/Content/images/bg/b1.jpg&quot;), url(&quot;../Content/images/bg/b1.jpg&quot;); background-position: 50% 69px;">
+	<div class="container pt-40 pb-20">
+		<!-- Section Content -->
+		<div class="section-content">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h2 class="title" id="hPageHeading">Online Consultation</h2>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<div class="section-content">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="panel">
+						<div class="panel-body">
+							<div class="example-box-wrapper">
+								<div class="row">
+									<div class="col-xs-6 col-md-3">
+										<label class="">Mobile No<span class="mendat">*</span></label>
+										<input type="text" id="txtMobile" maxlength="10" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" class="form-control" placeholder="Mobile No.">
+									</div>
+								</div>
+								<div id="divFormBody">
+									<div class="row">
+										<div class="col-xs-6 col-md-3">
+											<label class="">Patient Name<span class="mendat">*</span></label>
+											<input type="text" id="txtPatientName" class="form-control" placeholder="Patient Name">
+
+										</div>
+										<div class="col-xs-6 col-md-3">
+											<label class="">Gender <span class="mendat">*</span></label>
+											<select id="ddlGender" class="form-control">
+												<option>Select Gender</option>
+												<option>Male</option>
+												<option>Female</option>
+												<option>Other</option>
+											</select>
+
+										</div>
+
+										<div class="col-xs-6 col-md-3">
+											<label class="">DOB</label>
+											<input type="date" id="txtDob" class="form-control">
+										</div>
+										<div class="col-xs-6 col-md-3">
+											<div class="form-group">
+												<label class="">Email</label>
+												<input type="email" id="txtEmail" class="form-control" placeholder="Email">
+											</div>
+										</div>
+									</div>
+									<div class="row">
+
+										<div class="col-xs-12 col-md-6">
+											<div class="form-group">
+												<label class="">Address</label>
+												<input type="text" id="txtAddress" class="form-control" placeholder="Address">
+											</div>
+										</div>
+										<div class="col-xs-6 col-md-3">
+											<label class="">City</label>
+											<input type="text" id="txtCity" class="form-control" placeholder="City" />
+										</div>
+										<div class="col-xs-6 col-md-3">
+											<div class="form-group">
+												<label class="">State</label>
+												<input type="text" id="txtState" class="form-control" placeholder="State" />
+
+											</div>
+										</div>
+										<div class="col-xs-12 col-md-4">
+											<div class="form-group">
+												<label class="">Concern</label>
+												<textarea id="txtAppomtReason" class="form-control" placeholder="Concern"></textarea>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-12">
+											<input type="checkbox" id="ChkCondition"> Accept <a href="/Content/Documents/ChandanTermsAndCondition.pdf" target="_blank">Terms and Conditions</a>.
+											@*<input type="checkbox" id="chkCondition" value="1" onchange="valueChanged()" /> Accept Terms and Conditions.*@
+											<div class="input-group-btn">
+												<input type="button" id="btnSubmit" disabled="" onclick="InsertOnlineDoctorAppoinment()" class="btn btn-success" value="Submit" />
+												<input type="button" id="btnClear" class="btn btn-warning" value="Clear" />
+											</div>
+											<label id="lblMsg"></label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+

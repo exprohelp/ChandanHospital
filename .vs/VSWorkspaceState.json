@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ChandanHospital",
+    "\\ChandanHospital\\Areas",
+    "\\ChandanHospital\\Areas\\Hospital",
+    "\\ChandanHospital\\Areas\\Hospital\\JsModule",
+    "\\ChandanHospital\\Areas\\Hospital\\Views",
+    "\\ChandanHospital\\Areas\\Hospital\\Views\\Department",
+    "\\ChandanHospital\\Views",
+    "\\ChandanHospital\\Views\\Shared"
+  ],
+  "SelectedNode": "\\ChandanHospital\\Areas\\Hospital\\JsModule\\WhatWeTreat.js",
+  "PreviewInSolutionExplorer": false
+}

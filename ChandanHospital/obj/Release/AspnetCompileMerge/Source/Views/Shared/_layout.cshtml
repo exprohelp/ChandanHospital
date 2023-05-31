@@ -1,0 +1,50 @@
+﻿
+@using System.Web.Optimization;
+@{
+	Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>@ViewBag.Title</title>
+    <link rel="canonical" href="https://chandanhospital.in/" />
+    <script src="~/Content/js/jquery-2.2.4.min.js"></script>
+    @Styles.Render("~/bundles/CommonCss")
+    @Html.Partial("_head")
+    @RenderSection("metatags", required: false)
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="~/Content/jquery.da-share.js"></script>
+    <style>
+        #loader {
+            display: none;
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            /*background: url('../../images/loader.gif')50% 50% no-repeat;*/
+            background:url('http://www.mypolicetv.com/assets/img/ajax-loader.gif') 50% 50% no-repeat;
+        }        
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="loader"></div>
+        @Html.Partial("_header")
+        <div class="main-content" id="mydivs">
+            @RenderBody()
+        </div>
+        @Scripts.Render("~/bundles/CommonJs")
+        @Html.Partial("_footer")
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+

@@ -1,0 +1,279 @@
+﻿
+.card {
+    float: left;
+    min-height: 0 !important;
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+    position: relative;
+    text-align: left;
+    width: 100%;
+    text-wrap: normal;
+}
+
+.card-body > a {
+    margin-bottom: 10px;
+}
+
+.card-body span > a {
+    background: #198686;
+    margin-left: 5px;
+}
+
+    .card-body span > a:hover {
+        background: #198686;
+        margin-left: 5px;
+    }
+
+.card:nth-child(1) {
+    margin-left: 3px;
+}
+
+.card-text {
+    font-size: 14px !important;
+}
+
+
+.panel {
+    margin-bottom: 5px;
+}
+
+.panel-heading {
+    padding: 0px 5px;
+}
+
+hr {
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+    border: 1px solid #0ab1b9 !important;
+}
+
+p {
+    margin: 0 0 0 0 !important;
+}
+
+h4, h5, h6, .h4, .h5, h6 {
+    margin-top: 0 !important;
+    margin-bottom: 2px !important;
+    font-size: 16px;
+    color: #000;
+}
+
+.profileimg {
+    margin-bottom: 5px !important;
+    width: 200px;
+    height: 120px;
+}
+
+a {
+    color: #1588dc;
+    /*padding: 10px;*/
+}
+
+p {
+    color: #3c3b3b;
+    font-size: 12px
+}
+
+.text-muted {
+    font-size: 12px !important;
+}
+
+
+.docprofile {
+    padding: 15px 10px 5px 8px;
+}
+
+.btnborder {
+    border-width: 0.01rem;
+    border-color: #0c9ca2;
+    color: #000;
+    margin-top: 9px;
+    line-height: 0.5;
+    margin-left: 4px;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+	.SpecialityProfile {
+		width:60%;
+	}
+		.profileimg {
+        width: 150px;
+        height: 150px;
+    }
+
+    .docprofile {
+        overflow-y: hidden !important;
+        height: 100% !important;
+        padding: 15px 10px 5px 17px !important;
+    }
+
+    .mobilecolor {
+        background: #35a6e8 !important;
+    }
+
+    p {
+        padding: 5px 0 0 0 !important;
+        /*text-align: center !important;*/
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.5); /* ie 9 */
+    -webkit-transform: scale(1.5); /* safari 3-8 */
+    transform: scale(1.5);
+    z-index: 1 !important;
+    position: absolute;
+    margin-left: 15px;
+    margin-left: 64px;
+    margin-top: -3px;
+}
+
+#divcontent h3 {
+    font-size: 14px !important;
+    padding: 0 10px;
+    font-weight: 500;
+}
+.card {
+    float: left;
+    min-height: 0 !important;
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+    position: relative;
+    text-align: left;
+    width: 100%;
+    text-wrap: normal;
+}
+
+.card-body > a {
+    margin-bottom: 10px;
+}
+
+.card-body span > a {
+    background: #198686;
+    margin-left: 5px;
+}
+
+    .card-body span > a:hover {
+        background: #198686;
+        margin-left: 5px;
+    }
+
+.card:nth-child(1) {
+    margin-left: 3px;
+}
+
+.card-text {
+    font-size: 14px !important;
+}
+
+
+.panel {
+    margin-bottom: 5px;
+}
+
+.panel-heading {
+    padding: 0px 5px;
+}
+
+hr {
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+    border: 1px solid #0ab1b9 !important;
+}
+
+p {
+    margin: 0 0 0 0 !important;
+}
+
+h4, h5, h6, .h4, .h5, h6 {
+    margin-top: 0 !important;
+    margin-bottom: 2px !important;
+    font-size: 16px;
+    color: #000;
+}
+
+.profileimg {
+    margin-bottom: 5px !important;
+    width: 200px;
+    height: 120px;
+}
+
+a {
+    color: #1588dc;
+    /*padding: 10px;*/
+}
+
+p {
+    color: #3c3b3b;
+    font-size: 12px
+}
+
+.text-muted {
+    font-size: 12px !important;
+}
+
+
+.docprofile {
+    padding: 15px 10px 5px 8px;
+}
+
+.btnborder {
+    border-width: 0.01rem;
+    border-color: #0c9ca2;
+    color: #000;
+    margin-top: 9px;
+    line-height: 0.5;
+    margin-left: 4px;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+    .profileimg {
+        width: 150px;
+        height: 150px;
+    }
+
+    .docprofile {
+        overflow-y: hidden !important;
+        height: 100% !important;
+        padding: 15px 10px 5px 17px !important;
+    }
+
+    .mobilecolor {
+        background: #35a6e8 !important;
+    }
+
+    p {
+        padding: 5px 0 0 0 !important;
+        /*text-align: center !important;*/
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.5); /* ie 9 */
+    -webkit-transform: scale(1.5); /* safari 3-8 */
+    transform: scale(1.5);
+    z-index: 1 !important;
+    position: absolute;
+    margin-left: 15px;
+    margin-left: 64px;
+    margin-top: -3px;
+}
+
+#divcontent h3 {
+    font-size: 14px !important;
+    padding: 0 10px;
+    font-weight: 500;
+}
+
+
+

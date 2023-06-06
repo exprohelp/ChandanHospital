@@ -13,7 +13,7 @@ function isLogin() {
         window.location.href = config.rootUrl;
     }
 }
-
+//
 function preventLogin() {
     var Username = sessionStorage.getItem('Username');
     var UserID = sessionStorage.getItem('UserID');

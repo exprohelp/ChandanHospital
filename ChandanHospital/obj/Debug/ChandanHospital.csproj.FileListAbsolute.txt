@@ -641,3 +641,4 @@ D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.csp
 D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.csproj.CopyComplete
 D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.dll
 D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.pdb
+D:\WebApp\OneDrive\ChandanHospital\ChandanHospital\obj\Debug\ChandanHospital.csprojAssemblyReference.cache
